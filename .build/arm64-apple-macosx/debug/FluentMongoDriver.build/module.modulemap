@@ -1,4 +1,0 @@
-module FluentMongoDriver {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/FluentMongoDriver.build/FluentMongoDriver-Swift.h"
-    requires objc
-}

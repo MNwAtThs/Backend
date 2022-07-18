@@ -1,4 +1,0 @@
-module NIOEmbedded {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/NIOEmbedded.build/NIOEmbedded-Swift.h"
-    requires objc
-}

@@ -1,4 +1,0 @@
-module CAsyncHTTPClient {
-    umbrella header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/checkouts/async-http-client/Sources/CAsyncHTTPClient/include/CAsyncHTTPClient.h"
-    export *
-}

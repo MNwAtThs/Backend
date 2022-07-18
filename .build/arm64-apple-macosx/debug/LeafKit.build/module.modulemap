@@ -1,4 +1,0 @@
-module LeafKit {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/LeafKit.build/LeafKit-Swift.h"
-    requires objc
-}

@@ -1,4 +1,0 @@
-module MongoClient {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/MongoClient.build/MongoClient-Swift.h"
-    requires objc
-}

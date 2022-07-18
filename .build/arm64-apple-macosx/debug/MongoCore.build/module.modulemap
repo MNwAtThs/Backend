@@ -1,4 +1,0 @@
-module MongoCore {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/MongoCore.build/MongoCore-Swift.h"
-    requires objc
-}

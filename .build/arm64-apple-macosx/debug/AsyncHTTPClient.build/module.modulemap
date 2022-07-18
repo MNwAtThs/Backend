@@ -1,4 +1,0 @@
-module AsyncHTTPClient {
-    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/AsyncHTTPClient.build/AsyncHTTPClient-Swift.h"
-    requires objc
-}
