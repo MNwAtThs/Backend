@@ -1,0 +1,344 @@
+c6c507cebbc8ddd907445c84c334eb570b8e06cc	not-for-merge	branch 'ae-dictionary-encoding' of https://github.com/OpenKitten/MongoKitten
+07bb19e86917d1a2232251ca0786f926d86a47c2	not-for-merge	branch 'async' of https://github.com/OpenKitten/MongoKitten
+84f883e1e0ff88e699ae54aa7cd750331c8aaede	not-for-merge	branch 'development/5.0/aggregates' of https://github.com/OpenKitten/MongoKitten
+2adb5c43a7abdb91519c6e12f5aec929e89afbaa	not-for-merge	branch 'development/5.0/change-streams' of https://github.com/OpenKitten/MongoKitten
+52aeb83dde3fb1791f333cb1f4234d0501b8ae3e	not-for-merge	branch 'docs' of https://github.com/OpenKitten/MongoKitten
+7f7d29a2a2d07d22dd9361b9525ca91e002815b2	not-for-merge	branch 'feature/5.0/lazy-connect' of https://github.com/OpenKitten/MongoKitten
+9171d244fd8ad3f46e92e04d9221ead04c77ab38	not-for-merge	branch 'feature/async-await' of https://github.com/OpenKitten/MongoKitten
+660a766f1e9205c52072be5d8262bcbf4e8ca7fb	not-for-merge	branch 'feature/cosmosdb' of https://github.com/OpenKitten/MongoKitten
+a7b9f6d8beb8b473e874adb5d468e84e09f2fcfa	not-for-merge	branch 'feature/create-index-update' of https://github.com/OpenKitten/MongoKitten
+adc178a6539f3c518519fb4b7d0cfc0fa7bd1c9f	not-for-merge	branch 'feature/custom-channel-builders' of https://github.com/OpenKitten/MongoKitten
+031597e298e992e91879eef2b4e1ebbf9148e47c	not-for-merge	branch 'feature/delete-many' of https://github.com/OpenKitten/MongoKitten
+7099653ae2f8b3e0656d47e9ba5fc117d968bbcb	not-for-merge	branch 'feature/docs-and-cleanup' of https://github.com/OpenKitten/MongoKitten
+42f62f39ffb93de928993fd00cfbad8537c89187	not-for-merge	branch 'feature/failed-reply-as-error-reply' of https://github.com/OpenKitten/MongoKitten
+72a50030585156bcc323f07204b4bfed4d4963b5	not-for-merge	branch 'feature/geo-near-aggregate' of https://github.com/OpenKitten/MongoKitten
+22cd8d800b0ce9f9c01c0b152b61df68396562bc	not-for-merge	branch 'feature/jo-list-indexes' of https://github.com/OpenKitten/MongoKitten
+0280db87a6b549426a60a571d4a156208f40f05b	not-for-merge	branch 'feature/metadata-logging' of https://github.com/OpenKitten/MongoKitten
+fc91c44b24472de9a06e322eff90900f05e7644b	not-for-merge	branch 'feature/public-low-level-apis' of https://github.com/OpenKitten/MongoKitten
+4ad03c17cfc39e390e3c4f64226fdc4c36762b4a	not-for-merge	branch 'feature/retryable-writes' of https://github.com/OpenKitten/MongoKitten
+285b19eec14df116c493b5b78ff7c993e7a1e0be	not-for-merge	branch 'feature/testing-finetuning' of https://github.com/OpenKitten/MongoKitten
+d9328b11545e5bdd214e836fc260982adeb9171e	not-for-merge	branch 'feature/transactions-sessions' of https://github.com/OpenKitten/MongoKitten
+52d02497121478f1c93d5a2c928e2281df963b01	not-for-merge	branch 'find-and-modify-helper' of https://github.com/OpenKitten/MongoKitten
+a7c9ca1a3176f44e2d9b9a3c5537d560cd54c3d3	not-for-merge	branch 'gh-pages' of https://github.com/OpenKitten/MongoKitten
+7f1d68cbd4e7079ccdf1fa834d3355cf2cecc1c9	not-for-merge	branch 'jhoogstraat-master/5.0' of https://github.com/OpenKitten/MongoKitten
+2fd867577d33746d7fb281452652163f654f2411	not-for-merge	branch 'jo-broader-connection-support' of https://github.com/OpenKitten/MongoKitten
+f8f6dc875bddbdd8e6f04abcdada1f89818509dd	not-for-merge	branch 'jo-change-stream-helpers' of https://github.com/OpenKitten/MongoKitten
+eb617466a72b385e993aa46bf0fdabfe6a1bce14	not-for-merge	branch 'jo-custom-ca-root' of https://github.com/OpenKitten/MongoKitten
+d51d7ac33525fe880018fb6b64cf88c60d77dd5f	not-for-merge	branch 'jo-disconnect-reconnect' of https://github.com/OpenKitten/MongoKitten
+c3d249fdb68464b70717f221d33ec8d121eabd7b	not-for-merge	branch 'jo-logging' of https://github.com/OpenKitten/MongoKitten
+d5cf65cba7331ca1bf0a13d732a566f86d20617c	not-for-merge	branch 'jo-meow-docs-and-improvements' of https://github.com/OpenKitten/MongoKitten
+d796c8ab77695757c69879ff9c4bc768e69a15a1	not-for-merge	branch 'jo-testing' of https://github.com/OpenKitten/MongoKitten
+98943116aed95df1c26f0ad8ca21531ad60ba37a	not-for-merge	branch 'jo-thread-sanitizer-disconnect' of https://github.com/OpenKitten/MongoKitten
+1bf26b5dfb2371f6ba3578fa4c31eab1d492dbf0	not-for-merge	branch 'jo-use-native-resolver' of https://github.com/OpenKitten/MongoKitten
+7dbfa5b96891588ced8ed98e077a63907eed0de1	not-for-merge	branch 'master/4.0' of https://github.com/OpenKitten/MongoKitten
+30049b71a7267743b100b0f8b42bf1c03d89676b	not-for-merge	branch 'master/4.1' of https://github.com/OpenKitten/MongoKitten
+b73895c33f484b4e4d5f95d7b95236971c170c77	not-for-merge	branch 'master/5.0' of https://github.com/OpenKitten/MongoKitten
+1cc5d7629ae631fff359e28e732ce4f9cb632f58	not-for-merge	branch 'master/6.0' of https://github.com/OpenKitten/MongoKitten
+94741e06434363d1dbd4f03adb642bd10a173108	not-for-merge	branch 'master/7.0' of https://github.com/OpenKitten/MongoKitten
+72816af8dcbfef8f1e7db089581791161a06e907	not-for-merge	branch 'mobile/6.0' of https://github.com/OpenKitten/MongoKitten
+2ab0684e97a32f414468cbaacb6077b11def4b86	not-for-merge	branch 'swift4' of https://github.com/OpenKitten/MongoKitten
+157b2c9234b6e15ea68b1da4071f4ad652cf8556	not-for-merge	branch 'swift4-old-parser' of https://github.com/OpenKitten/MongoKitten
+08d5d11906f9f262825a61b2a6f67a730893fe7e	not-for-merge	'refs/pull/10/head' of https://github.com/OpenKitten/MongoKitten
+ba12e5f202fd512895c09ded256943538f610bbc	not-for-merge	'refs/pull/107/head' of https://github.com/OpenKitten/MongoKitten
+813e5a4d2426a8f43a46b5ba206a70fd2b159e36	not-for-merge	'refs/pull/107/merge' of https://github.com/OpenKitten/MongoKitten
+89045c0b83c6f9b67f0541d6399cc82bd4623026	not-for-merge	'refs/pull/11/head' of https://github.com/OpenKitten/MongoKitten
+587214cbc2736239c7a4c773ffd1616b339224cc	not-for-merge	'refs/pull/11/merge' of https://github.com/OpenKitten/MongoKitten
+12fe3fd13c028e0469164a1ec86fe9ddf5610442	not-for-merge	'refs/pull/12/head' of https://github.com/OpenKitten/MongoKitten
+c0879f3b4d0b0542ba2db8fdf80c6a39d548dea0	not-for-merge	'refs/pull/121/head' of https://github.com/OpenKitten/MongoKitten
+d898ab0924bd7ffebe4f6fc33bdcd82fc877c2a9	not-for-merge	'refs/pull/121/merge' of https://github.com/OpenKitten/MongoKitten
+12779af29c4bb5a6acc64cd081a709f534643d22	not-for-merge	'refs/pull/130/head' of https://github.com/OpenKitten/MongoKitten
+7ce4e2228aa0c6c079b84ed468a9221b8a04770f	not-for-merge	'refs/pull/154/head' of https://github.com/OpenKitten/MongoKitten
+ed8ecb3c4afe13736fa9eb39363c76a8f116d854	not-for-merge	'refs/pull/156/head' of https://github.com/OpenKitten/MongoKitten
+fe6a79f5b0399a692d4c657bc2c0ee2952da874a	not-for-merge	'refs/pull/157/head' of https://github.com/OpenKitten/MongoKitten
+760b7355e524d167126b83170c8638ad1a2f42a1	not-for-merge	'refs/pull/162/head' of https://github.com/OpenKitten/MongoKitten
+5e586cb89cc2bedaf9e570c92ec7a057c64e5dbe	not-for-merge	'refs/pull/165/head' of https://github.com/OpenKitten/MongoKitten
+cba9691fe14429913230de25ac7cfdc29084758f	not-for-merge	'refs/pull/165/merge' of https://github.com/OpenKitten/MongoKitten
+439592be2ac5da2d8b77fd8c76255509c3b754f9	not-for-merge	'refs/pull/169/head' of https://github.com/OpenKitten/MongoKitten
+0bc57302dd75bc8a437908964a5a775a505cd99d	not-for-merge	'refs/pull/171/head' of https://github.com/OpenKitten/MongoKitten
+2adb5c43a7abdb91519c6e12f5aec929e89afbaa	not-for-merge	'refs/pull/173/head' of https://github.com/OpenKitten/MongoKitten
+897a095b38d02ff45f8e089197dcd3622e1fbecc	not-for-merge	'refs/pull/178/head' of https://github.com/OpenKitten/MongoKitten
+890e81db4bda674afc9bb2cf9d64ef2736fff820	not-for-merge	'refs/pull/180/head' of https://github.com/OpenKitten/MongoKitten
+7f7d29a2a2d07d22dd9361b9525ca91e002815b2	not-for-merge	'refs/pull/181/head' of https://github.com/OpenKitten/MongoKitten
+cb59bc4157d211baf66e1a590cbd76d02b0309e9	not-for-merge	'refs/pull/182/head' of https://github.com/OpenKitten/MongoKitten
+a7211918223cce89e9ae52026b8da3318d732766	not-for-merge	'refs/pull/183/head' of https://github.com/OpenKitten/MongoKitten
+6bbffcd4cb94c832b3d676e35a45c6d47fb45a45	not-for-merge	'refs/pull/185/head' of https://github.com/OpenKitten/MongoKitten
+1c287e2748602f8093044ed6efd93da91cc6fc94	not-for-merge	'refs/pull/189/head' of https://github.com/OpenKitten/MongoKitten
+7f1d68cbd4e7079ccdf1fa834d3355cf2cecc1c9	not-for-merge	'refs/pull/192/head' of https://github.com/OpenKitten/MongoKitten
+3f60fb4b0969f2e2ca5e6d7a419b8edcbce1ff5b	not-for-merge	'refs/pull/194/head' of https://github.com/OpenKitten/MongoKitten
+7517d45d7c8b6069c33b7a30e32420bec7c2301b	not-for-merge	'refs/pull/195/head' of https://github.com/OpenKitten/MongoKitten
+8d38b50fd7aa3d2667ab0a562d8c247b60e1992a	not-for-merge	'refs/pull/197/head' of https://github.com/OpenKitten/MongoKitten
+1ff71249ca42275cb4324f2d2a98653eb9e93eb0	not-for-merge	'refs/pull/2/head' of https://github.com/OpenKitten/MongoKitten
+847ec8081ed765f9f3e148a251184c4dabcd4ebe	not-for-merge	'refs/pull/201/head' of https://github.com/OpenKitten/MongoKitten
+57136263ecf0050a85d4ecb6d7f19826c200427c	not-for-merge	'refs/pull/205/head' of https://github.com/OpenKitten/MongoKitten
+984f8dfcef7a212bba52ad51e6fc168be666df16	not-for-merge	'refs/pull/214/head' of https://github.com/OpenKitten/MongoKitten
+f608f17383798e34a6a48f11f62a8a9e8e3be4b4	not-for-merge	'refs/pull/216/head' of https://github.com/OpenKitten/MongoKitten
+d5172e2ed296e3a59d688a495812bd317a5f62ee	not-for-merge	'refs/pull/221/head' of https://github.com/OpenKitten/MongoKitten
+f04de8904491fa785a06e02da4a93661756c7fc6	not-for-merge	'refs/pull/222/head' of https://github.com/OpenKitten/MongoKitten
+244075658d0eca013bb198d252fb5cc7283ec31f	not-for-merge	'refs/pull/228/head' of https://github.com/OpenKitten/MongoKitten
+eb617466a72b385e993aa46bf0fdabfe6a1bce14	not-for-merge	'refs/pull/230/head' of https://github.com/OpenKitten/MongoKitten
+ce1d42dd814ce8bbd790741108df350e0c4479ce	not-for-merge	'refs/pull/231/head' of https://github.com/OpenKitten/MongoKitten
+e552b4e11f894c17ab8f6cb06886c6c1325ce32c	not-for-merge	'refs/pull/232/head' of https://github.com/OpenKitten/MongoKitten
+7099653ae2f8b3e0656d47e9ba5fc117d968bbcb	not-for-merge	'refs/pull/233/head' of https://github.com/OpenKitten/MongoKitten
+7871c73ad1b165ec44ef791bacace118ae671cfc	not-for-merge	'refs/pull/233/merge' of https://github.com/OpenKitten/MongoKitten
+e3bc475f034b4e0d33777d2bf3eba60eb266384d	not-for-merge	'refs/pull/234/head' of https://github.com/OpenKitten/MongoKitten
+9fd0fc03f2631b4a7d64ec73325cce29e064a518	not-for-merge	'refs/pull/237/head' of https://github.com/OpenKitten/MongoKitten
+22cd8d800b0ce9f9c01c0b152b61df68396562bc	not-for-merge	'refs/pull/239/head' of https://github.com/OpenKitten/MongoKitten
+a7b9f6d8beb8b473e874adb5d468e84e09f2fcfa	not-for-merge	'refs/pull/240/head' of https://github.com/OpenKitten/MongoKitten
+7cb8c355a8ddc6f93d95bfcb6e4ae650338f9e38	not-for-merge	'refs/pull/241/head' of https://github.com/OpenKitten/MongoKitten
+72a50030585156bcc323f07204b4bfed4d4963b5	not-for-merge	'refs/pull/242/head' of https://github.com/OpenKitten/MongoKitten
+bfa1aa5e5ccd1d9af86708be29918b27b08b650b	not-for-merge	'refs/pull/243/head' of https://github.com/OpenKitten/MongoKitten
+66d448029dff78a8de44cf59f354083b16f6ce52	not-for-merge	'refs/pull/244/head' of https://github.com/OpenKitten/MongoKitten
+479010b3b0e19bf71d9c3f3ca15ccae4e8536219	not-for-merge	'refs/pull/245/head' of https://github.com/OpenKitten/MongoKitten
+3dad1e789d5d99948d70a88d11e9b1da7700c0c6	not-for-merge	'refs/pull/247/head' of https://github.com/OpenKitten/MongoKitten
+031597e298e992e91879eef2b4e1ebbf9148e47c	not-for-merge	'refs/pull/249/head' of https://github.com/OpenKitten/MongoKitten
+592e8bff5cf898a9e221b272b289dc24324a09e6	not-for-merge	'refs/pull/249/merge' of https://github.com/OpenKitten/MongoKitten
+2fd867577d33746d7fb281452652163f654f2411	not-for-merge	'refs/pull/250/head' of https://github.com/OpenKitten/MongoKitten
+b149ad80c06d40a82b9c6de3e4a8c92ea456e201	not-for-merge	'refs/pull/252/head' of https://github.com/OpenKitten/MongoKitten
+d51d7ac33525fe880018fb6b64cf88c60d77dd5f	not-for-merge	'refs/pull/253/head' of https://github.com/OpenKitten/MongoKitten
+660a766f1e9205c52072be5d8262bcbf4e8ca7fb	not-for-merge	'refs/pull/258/head' of https://github.com/OpenKitten/MongoKitten
+1fd51ac5a61e071b7be51cb846136221c3b2c111	not-for-merge	'refs/pull/258/merge' of https://github.com/OpenKitten/MongoKitten
+9171d244fd8ad3f46e92e04d9221ead04c77ab38	not-for-merge	'refs/pull/259/head' of https://github.com/OpenKitten/MongoKitten
+0d4444d0502992675ce864504e6b4d1b223c1fcb	not-for-merge	'refs/pull/260/head' of https://github.com/OpenKitten/MongoKitten
+eafc9772a2ab06752fd93a01d563a8bffdf63757	not-for-merge	'refs/pull/262/head' of https://github.com/OpenKitten/MongoKitten
+52d02497121478f1c93d5a2c928e2281df963b01	not-for-merge	'refs/pull/264/head' of https://github.com/OpenKitten/MongoKitten
+52d02497121478f1c93d5a2c928e2281df963b01	not-for-merge	'refs/pull/265/head' of https://github.com/OpenKitten/MongoKitten
+37d8919a1008b57b5246248a36041e1460ee2556	not-for-merge	'refs/pull/266/head' of https://github.com/OpenKitten/MongoKitten
+68cfe3a4796993384f2615b86601f482d8eaeb19	not-for-merge	'refs/pull/271/head' of https://github.com/OpenKitten/MongoKitten
+94741e06434363d1dbd4f03adb642bd10a173108	not-for-merge	'refs/pull/272/head' of https://github.com/OpenKitten/MongoKitten
+ba28ce17f2d4417edf82f6879fa58a3683fb817e	not-for-merge	'refs/pull/272/merge' of https://github.com/OpenKitten/MongoKitten
+c757733b3d0a338b170c87a87b8a9ef44ee2413e	not-for-merge	'refs/pull/273/head' of https://github.com/OpenKitten/MongoKitten
+c757733b3d0a338b170c87a87b8a9ef44ee2413e	not-for-merge	'refs/pull/274/head' of https://github.com/OpenKitten/MongoKitten
+906ba549449885c82158fc86aee10675704c69f0	not-for-merge	'refs/pull/275/head' of https://github.com/OpenKitten/MongoKitten
+335797442a7840b8c0d814a5e3af9d2a11733be0	not-for-merge	'refs/pull/276/head' of https://github.com/OpenKitten/MongoKitten
+f27587e5fdb91ece6d1b434bddb2c2ece8b97f1a	not-for-merge	'refs/pull/281/head' of https://github.com/OpenKitten/MongoKitten
+329bbb2fe317030aa197351b43759f679eeaced1	not-for-merge	'refs/pull/281/merge' of https://github.com/OpenKitten/MongoKitten
+c6c507cebbc8ddd907445c84c334eb570b8e06cc	not-for-merge	'refs/pull/282/head' of https://github.com/OpenKitten/MongoKitten
+07f39f6e2c7156dce43bce82e554e9988fc23dec	not-for-merge	'refs/pull/284/head' of https://github.com/OpenKitten/MongoKitten
+09b11d43a98e0eced59b4c1e7d8304151d461617	not-for-merge	'refs/pull/285/head' of https://github.com/OpenKitten/MongoKitten
+f84eaae50ce18bac81ff59d6ade0f134b779968f	not-for-merge	'refs/pull/286/head' of https://github.com/OpenKitten/MongoKitten
+e72cc7aa0b528ba4df297c64a877ed759e379c9c	not-for-merge	'refs/pull/29/head' of https://github.com/OpenKitten/MongoKitten
+77a25e778597b25244d8665dd109c8624af36886	not-for-merge	'refs/pull/33/head' of https://github.com/OpenKitten/MongoKitten
+23e617384dfb37d75721b28a4f4b29c8aa626c5b	not-for-merge	'refs/pull/40/head' of https://github.com/OpenKitten/MongoKitten
+486ae0fafddc43166eff6b6c71fbbaa226c7cc72	not-for-merge	'refs/pull/41/head' of https://github.com/OpenKitten/MongoKitten
+4ac7b98f84c8a3cc58d7134551715c6e992460ed	not-for-merge	'refs/pull/43/head' of https://github.com/OpenKitten/MongoKitten
+78eaa5678f532e389279439fd9537aaf9f8ffffd	not-for-merge	'refs/pull/54/head' of https://github.com/OpenKitten/MongoKitten
+2d3b66fdad3941cad862bbf9c2d5f7c6483136c5	not-for-merge	'refs/pull/70/head' of https://github.com/OpenKitten/MongoKitten
+f57ccaf1bd951c7b5177e296c201fe065ded5747	not-for-merge	'refs/pull/72/head' of https://github.com/OpenKitten/MongoKitten
+8cc4fd12589e099aa9861311d140c5d05c5bab21	not-for-merge	'refs/pull/77/head' of https://github.com/OpenKitten/MongoKitten
+386d1f68aa74d13e2b158a1ce471807e62cea64d	not-for-merge	'refs/pull/79/head' of https://github.com/OpenKitten/MongoKitten
+ef3b2f100ae084492498f025280844b3bf84758c	not-for-merge	'refs/pull/79/merge' of https://github.com/OpenKitten/MongoKitten
+41223b84716a4c24116fb313a219dc6eacd8a822	not-for-merge	'refs/pull/85/head' of https://github.com/OpenKitten/MongoKitten
+1a77a0d5dec7bc3093b5881e70125232e6378319	not-for-merge	'refs/pull/89/head' of https://github.com/OpenKitten/MongoKitten
+602a36093df572f35ca86344b38e9fe2f0a6f8fa	not-for-merge	tag '0.0.0' of https://github.com/OpenKitten/MongoKitten
+c3bfff31b768225571dd5ee70249a7dab5db66f5	not-for-merge	tag '0.0.1' of https://github.com/OpenKitten/MongoKitten
+c2a042e89f845df0e18540aa250cd22b4b9fae1f	not-for-merge	tag '0.0.19' of https://github.com/OpenKitten/MongoKitten
+26869a4c61ef6b74183687b7557854a436620acd	not-for-merge	tag '0.0.2' of https://github.com/OpenKitten/MongoKitten
+ec5e0e6ad7dfe948266d2a6f90fb43d52181ac58	not-for-merge	tag '0.0.20' of https://github.com/OpenKitten/MongoKitten
+bcedcd24c2815672cef87a9b5fcae7d6fd87d11c	not-for-merge	tag '0.0.21' of https://github.com/OpenKitten/MongoKitten
+38ec42f90329e8b5c3a68d51a20dac6a79abd3b8	not-for-merge	tag '0.0.22' of https://github.com/OpenKitten/MongoKitten
+49de258ee1468e9ee48aa7417dd96da3b899c5e2	not-for-merge	tag '0.0.23' of https://github.com/OpenKitten/MongoKitten
+36d8af8fead864d3e524eaf5ce1bbe4c127dec22	not-for-merge	tag '0.0.24' of https://github.com/OpenKitten/MongoKitten
+7c03efee363ab9028d6e6045a74f55f29dc93ab5	not-for-merge	tag '0.0.25' of https://github.com/OpenKitten/MongoKitten
+9c39e449cea4eb4546d602a81a95f34526be7282	not-for-merge	tag '0.0.26' of https://github.com/OpenKitten/MongoKitten
+825057083928e382413d817ab1d59955fdbe11d1	not-for-merge	tag '0.0.27' of https://github.com/OpenKitten/MongoKitten
+1b771905dcec26e2ad22032ad6c11fce05cb007a	not-for-merge	tag '0.0.28' of https://github.com/OpenKitten/MongoKitten
+e5bcf6ceb208c2e0a73b3dc5c146a075f7864405	not-for-merge	tag '0.0.29' of https://github.com/OpenKitten/MongoKitten
+e60d081f26601fe6b8070d9f8ed4c061330e952c	not-for-merge	tag '0.0.3' of https://github.com/OpenKitten/MongoKitten
+8d23edc030d07241db5b74d5211c08f7463b13c9	not-for-merge	tag '0.0.30' of https://github.com/OpenKitten/MongoKitten
+f555846693f3e5ccbcd8cf852949f9f7fcb97014	not-for-merge	tag '0.0.31' of https://github.com/OpenKitten/MongoKitten
+a303d8bcfb795b2daf4937d03ad8997e921290d5	not-for-merge	tag '0.0.4' of https://github.com/OpenKitten/MongoKitten
+8f466bdc6518a8ce2b49c7d5bc6d23b07568e01a	not-for-merge	tag '0.0.5' of https://github.com/OpenKitten/MongoKitten
+d8b166c76f5c752fd3943d5a0358927c0a8b6413	not-for-merge	tag '0.0.6' of https://github.com/OpenKitten/MongoKitten
+a462e9aa5051b424be4ca56427eb5ce540260bbe	not-for-merge	tag '0.0.7' of https://github.com/OpenKitten/MongoKitten
+75457256439afd230ca0cd60a0821b0069bf5cbf	not-for-merge	tag '0.0.847' of https://github.com/OpenKitten/MongoKitten
+14c7d5ed470ed60a2cbb9f13da3e5bb7ede26b88	not-for-merge	tag '0.1.0' of https://github.com/OpenKitten/MongoKitten
+47a3956c4108d6de1c8abeea37cf53b414a4816f	not-for-merge	tag '0.1.1' of https://github.com/OpenKitten/MongoKitten
+91e61c0490adc1a6dc0834689fbe723cd29d93b2	not-for-merge	tag '0.10.0' of https://github.com/OpenKitten/MongoKitten
+ebee7cd8ec7849224f1f6e9b0a83eb8c7e4904d6	not-for-merge	tag '0.10.1' of https://github.com/OpenKitten/MongoKitten
+0961c602efdb7305b3bef3c92f2d62086028d28f	not-for-merge	tag '0.10.2' of https://github.com/OpenKitten/MongoKitten
+4f1e45ed2126df3db878e8f8bf38ceb612c2b869	not-for-merge	tag '0.2.0' of https://github.com/OpenKitten/MongoKitten
+5463500bc3579876c2b484ad18985176fd746920	not-for-merge	tag '0.2.1' of https://github.com/OpenKitten/MongoKitten
+f15d4f3f760a7c64c3ad75df9b4b014307179356	not-for-merge	tag '0.2.2' of https://github.com/OpenKitten/MongoKitten
+bcb8190201acc8efb5619ebbdb7ffa30d3578866	not-for-merge	tag '0.2.3' of https://github.com/OpenKitten/MongoKitten
+56e500c5621e3be152d5b6a2873d347ad08ff60f	not-for-merge	tag '0.3.0' of https://github.com/OpenKitten/MongoKitten
+d67ffa58438149fae2dddbd3b5aecf0099ab6fb4	not-for-merge	tag '0.4.0' of https://github.com/OpenKitten/MongoKitten
+75fe7c944562b6a779420b3a1af1ed9e6e6e6478	not-for-merge	tag '0.4.1' of https://github.com/OpenKitten/MongoKitten
+3dc37b960abc2b78cc0fb35d9d38ea34b45bbb15	not-for-merge	tag '0.4.2' of https://github.com/OpenKitten/MongoKitten
+5bb0c9ccd9df74c190668cf2a689e0c8cac5fcd5	not-for-merge	tag '0.5.0' of https://github.com/OpenKitten/MongoKitten
+a142ea9c4364861b9ebe6e6e058a9b88fb73670b	not-for-merge	tag '0.5.1' of https://github.com/OpenKitten/MongoKitten
+a5f514c9199a649ef414331f5588804f0dce1aeb	not-for-merge	tag '0.5.10' of https://github.com/OpenKitten/MongoKitten
+5e773314047f3d64207e5e8c707b58aaa2a528a3	not-for-merge	tag '0.5.11' of https://github.com/OpenKitten/MongoKitten
+152a226d98e984e9a81d7157eb201b56fa04d428	not-for-merge	tag '0.5.12' of https://github.com/OpenKitten/MongoKitten
+7fc2e2ad23d7387c538d38af1b692b9979e27de4	not-for-merge	tag '0.5.2' of https://github.com/OpenKitten/MongoKitten
+72bf87057f213330c52196adf1cdff3a70a7f94a	not-for-merge	tag '0.5.3' of https://github.com/OpenKitten/MongoKitten
+cc228cfdbe215a2dc039f52db7fb8c705ec92874	not-for-merge	tag '0.5.4' of https://github.com/OpenKitten/MongoKitten
+245f8857c050605f08f0813143d9d641d91e7ded	not-for-merge	tag '0.5.5' of https://github.com/OpenKitten/MongoKitten
+6eeae0b8e018c7673f514789e8e411b2a503473d	not-for-merge	tag '0.5.6' of https://github.com/OpenKitten/MongoKitten
+0b32dc46afc84a59e61a57127d72f6adac04ffda	not-for-merge	tag '0.5.7' of https://github.com/OpenKitten/MongoKitten
+228fba1f688b9e826ca8c25fc910f255093275ad	not-for-merge	tag '0.5.8' of https://github.com/OpenKitten/MongoKitten
+353c6a50ea9f031837c70bf2347c960e43af0994	not-for-merge	tag '0.5.9' of https://github.com/OpenKitten/MongoKitten
+6b4b786013997111d6b51b265e8dd46cc423b2b0	not-for-merge	tag '0.6.0' of https://github.com/OpenKitten/MongoKitten
+aa7ddd00843c6c344d87308de7c4baac130105b0	not-for-merge	tag '0.7.0' of https://github.com/OpenKitten/MongoKitten
+2ccad5b8981181edace57a3e1f295fa8154062bd	not-for-merge	tag '0.7.1' of https://github.com/OpenKitten/MongoKitten
+9018c79f0f963b8c2638d0a2b6347cd498588ff3	not-for-merge	tag '0.8.0' of https://github.com/OpenKitten/MongoKitten
+f9de10db86487ac3d45458a2aa9c0a8fc24ef23a	not-for-merge	tag '0.8.1' of https://github.com/OpenKitten/MongoKitten
+c171f2440636d57ef0dbced04110071250d5cb84	not-for-merge	tag '0.9.0' of https://github.com/OpenKitten/MongoKitten
+dc91ada3079ce93385cfb555916dd33e37a6fb57	not-for-merge	tag '0.9.1' of https://github.com/OpenKitten/MongoKitten
+1b889816b9f6c1bd23e6ddf739cc88d8141be67c	not-for-merge	tag '0.9.2' of https://github.com/OpenKitten/MongoKitten
+7ac45311c50c2ac48b72bbcc13c248a27e97801a	not-for-merge	tag '0.9.3' of https://github.com/OpenKitten/MongoKitten
+ac0772745fbb3a4afe8e2dcf1fa959a7c706e2de	not-for-merge	tag '1.0.0' of https://github.com/OpenKitten/MongoKitten
+cc48b4a83a779742816f98cf0b2c2562afc97523	not-for-merge	tag '1.0.1' of https://github.com/OpenKitten/MongoKitten
+870e91e6bf56a75a310b862db713c1564379d13d	not-for-merge	tag '1.1.0' of https://github.com/OpenKitten/MongoKitten
+44a130a3f68daf970a302346e44c641bd52e6ea9	not-for-merge	tag '1.2.0' of https://github.com/OpenKitten/MongoKitten
+4fb277b56617f0c200f038b59f27657cd524585b	not-for-merge	tag '1.3.0' of https://github.com/OpenKitten/MongoKitten
+70d5c6650c897296f1e701864fed5e04fa335181	not-for-merge	tag '1.4.0' of https://github.com/OpenKitten/MongoKitten
+4df9cd0dfc21ad15fa49c24b68f889fbba3f8f26	not-for-merge	tag '1.4.1' of https://github.com/OpenKitten/MongoKitten
+4b7490de31d7316f4ed61e639c0d94ecda0583e6	not-for-merge	tag '1.4.2' of https://github.com/OpenKitten/MongoKitten
+53908e05169b0fb4c77ffb83ce21ad8f156ae97a	not-for-merge	tag '1.4.3' of https://github.com/OpenKitten/MongoKitten
+8a14994d2da03b6db841225ca34e3701af2b74fb	not-for-merge	tag '1.5.0' of https://github.com/OpenKitten/MongoKitten
+a9fc9183918aec6cf022d326be9aa926733e42ab	not-for-merge	tag '1.5.1' of https://github.com/OpenKitten/MongoKitten
+6e471c7f1ea412f3cb644cd6b6e478ddbb3cf944	not-for-merge	tag '1.6.0' of https://github.com/OpenKitten/MongoKitten
+c16e2f5a39a2d6b171028b41c953d85896edbaa9	not-for-merge	tag '1.6.1' of https://github.com/OpenKitten/MongoKitten
+c6de53a515eb526e09a8430f596fc32640680895	not-for-merge	tag '1.7.0' of https://github.com/OpenKitten/MongoKitten
+8e6191c35da0379730bdfa5e1f86382818fbe92e	not-for-merge	tag '1.7.1' of https://github.com/OpenKitten/MongoKitten
+02d9e551c1b0061a1a82ddac78ec65b2fbfcad5d	not-for-merge	tag '1.7.2' of https://github.com/OpenKitten/MongoKitten
+af1ff6d6f24dc8f0ede329489165f71fd8108ae5	not-for-merge	tag '1.7.3' of https://github.com/OpenKitten/MongoKitten
+61aad18fb3583ad193a101b4f9982302caf45372	not-for-merge	tag '1.7.4' of https://github.com/OpenKitten/MongoKitten
+28a7e324821dd74a11d812cc3461357be772e993	not-for-merge	tag '2.0.0' of https://github.com/OpenKitten/MongoKitten
+c4206eadaf7bcbb546a7aecbe82fde9415fc5fb0	not-for-merge	tag '2.0.1' of https://github.com/OpenKitten/MongoKitten
+b0a390aa706bc498f2b40122da8b0d5e4826845e	not-for-merge	tag '2.0.2' of https://github.com/OpenKitten/MongoKitten
+9915de41ae33f37940573e34b12469e2c31ac3dc	not-for-merge	tag '2.0.3' of https://github.com/OpenKitten/MongoKitten
+c1e3458e29de331d10e9bf2d6029ac4df16d8620	not-for-merge	tag '2.0.4' of https://github.com/OpenKitten/MongoKitten
+aaac5f4999c311a36d82129ac450f9557659b8f4	not-for-merge	tag '2.0.5' of https://github.com/OpenKitten/MongoKitten
+487f67a104389b2fcc2901296b443f9e9277c8c6	not-for-merge	tag '2.0.6' of https://github.com/OpenKitten/MongoKitten
+e3538ff76f2f94d8d0c2b8e58013d8d34989f43b	not-for-merge	tag '2.0.7' of https://github.com/OpenKitten/MongoKitten
+d05c46a4991ccb4ced82d1f178ff04a77fc16502	not-for-merge	tag '2.0.8' of https://github.com/OpenKitten/MongoKitten
+b31ab0119605676fa31d2855695288d074627767	not-for-merge	tag '3.0.0' of https://github.com/OpenKitten/MongoKitten
+d15f87241a84ccae5000b3a98c1d40809d87655f	not-for-merge	tag '3.0.0-alpha' of https://github.com/OpenKitten/MongoKitten
+9ed3b95ec6f9bef16826761204b3988ce7973429	not-for-merge	tag '3.0.0-alpha2' of https://github.com/OpenKitten/MongoKitten
+6d6ac1ba1c1781bdc66648ab080ba8a1551be9cf	not-for-merge	tag '3.0.0-alpha3' of https://github.com/OpenKitten/MongoKitten
+c2848b5756e2ddeafd4bcdc41a77aa68cd9507fb	not-for-merge	tag '3.0.0-alpha4' of https://github.com/OpenKitten/MongoKitten
+4033194124fce86cdfc8460a2af569e944e164f5	not-for-merge	tag '3.0.0-alpha4ssl' of https://github.com/OpenKitten/MongoKitten
+58c6e2a6ab32495b1f2c2522feff414be1c26036	not-for-merge	tag '3.0.0-alpha5' of https://github.com/OpenKitten/MongoKitten
+0763a1546ba437a49e7ca1821359a6f499ac5df9	not-for-merge	tag '3.0.0-alpha6' of https://github.com/OpenKitten/MongoKitten
+06c6bff64117dfd8daf66b2cc944a032ed429141	not-for-merge	tag '3.0.0-alpha7' of https://github.com/OpenKitten/MongoKitten
+1f6c449e5bd5026dbb26125a498a00d1944e2b3f	not-for-merge	tag '3.0.0-alpha8' of https://github.com/OpenKitten/MongoKitten
+e4896c9eecdc0767222ae8dd75dca0c336768170	not-for-merge	tag '3.0.0-beta' of https://github.com/OpenKitten/MongoKitten
+22acc94e880abfd186eab13689dc6921536b6fa0	not-for-merge	tag '3.0.0-beta2' of https://github.com/OpenKitten/MongoKitten
+4ee521d27509383457bc4bfeec80c98f80877d8c	not-for-merge	tag '3.0.1' of https://github.com/OpenKitten/MongoKitten
+6296aecb108b26343f7c1b70d655d74590dff853	not-for-merge	tag '3.0.2' of https://github.com/OpenKitten/MongoKitten
+65b9de5ac690be19234437a3c5e9b75ff9786498	not-for-merge	tag '3.0.3' of https://github.com/OpenKitten/MongoKitten
+bc5c9edb66b3e631bea8765b75c53acb44d9686c	not-for-merge	tag '3.0.4' of https://github.com/OpenKitten/MongoKitten
+68a128e0569637073b8cc5a95bc7e85c4ce835e2	not-for-merge	tag '3.0.5' of https://github.com/OpenKitten/MongoKitten
+1eadf8321651f7901855759f43393c6dc40fd738	not-for-merge	tag '3.0.6' of https://github.com/OpenKitten/MongoKitten
+69c79ae4cc1566e49b2730cf236c797620cf8466	not-for-merge	tag '3.1.0' of https://github.com/OpenKitten/MongoKitten
+0a379f613834ad01a50e60953369e33d80eb03d4	not-for-merge	tag '3.1.0-beta' of https://github.com/OpenKitten/MongoKitten
+44595d5ddca916a0189fec85a709edd1100d2961	not-for-merge	tag '3.1.0-beta2' of https://github.com/OpenKitten/MongoKitten
+2762e7233defdefeab9a1cc6c0d140551d71ed8c	not-for-merge	tag '3.1.0-beta3' of https://github.com/OpenKitten/MongoKitten
+6c09d1c37a6cddead5b13be444ccf87c2e59bb74	not-for-merge	tag '3.1.1' of https://github.com/OpenKitten/MongoKitten
+3f7cbce392b143c366ad0d0c7fa39cf7e95b7152	not-for-merge	tag '3.1.2' of https://github.com/OpenKitten/MongoKitten
+a5ea5d2e9964074f075d447e6c3e38ad533512e8	not-for-merge	tag '3.1.3' of https://github.com/OpenKitten/MongoKitten
+3b78ec04deb5f3e46bbb85eb89fccd5b23569858	not-for-merge	tag '3.1.4' of https://github.com/OpenKitten/MongoKitten
+cc6d246c5cd2b4d4639ace10029f6047e121c4a3	not-for-merge	tag '3.1.5' of https://github.com/OpenKitten/MongoKitten
+9144112aa688a55967ddd90700967955ab5277be	not-for-merge	tag '3.1.6' of https://github.com/OpenKitten/MongoKitten
+e8c155a193ca9e606c74cb0ae80cd06e507fdcaa	not-for-merge	tag '3.1.7' of https://github.com/OpenKitten/MongoKitten
+4f46101d92295a91d3651e7827708db11e2847fa	not-for-merge	tag '3.2.0' of https://github.com/OpenKitten/MongoKitten
+071fcc890e1ddb483986be019d95bdbb990cefd3	not-for-merge	tag '3.2.1' of https://github.com/OpenKitten/MongoKitten
+6c2cab4529f58118960e373bb5ce1c2d1d85e9fb	not-for-merge	tag '3.2.2' of https://github.com/OpenKitten/MongoKitten
+8845070bbea45a985ae04a5c8700b760d4cc31d8	not-for-merge	tag '3.2.3' of https://github.com/OpenKitten/MongoKitten
+d17be23fcf0fbf99cad4e930c47f9788d5b1596e	not-for-merge	tag '4.0.0' of https://github.com/OpenKitten/MongoKitten
+2bfb9e290edee513794dfaa0f4c519bf7af814a2	not-for-merge	tag '4.0.0-alpha.1' of https://github.com/OpenKitten/MongoKitten
+bcedcd24c2815672cef87a9b5fcae7d6fd87d11c	not-for-merge	tag '4.0.0-alpha.2' of https://github.com/OpenKitten/MongoKitten
+d5dd20507d9e0a3a50c03fca3b62c4714092fa9f	not-for-merge	tag '4.0.0-bson5' of https://github.com/OpenKitten/MongoKitten
+866bf70142f7bd264f3bda322022f0da4c80ccfe	not-for-merge	tag '4.0.0-bson52' of https://github.com/OpenKitten/MongoKitten
+9dc7a3949da95673dfb7272056acb19b29aece1c	not-for-merge	tag '4.0.0-proposal' of https://github.com/OpenKitten/MongoKitten
+a4caae74b70661402c5052d5f30353ce1260efc5	not-for-merge	tag '4.0.0-vaportls' of https://github.com/OpenKitten/MongoKitten
+d17be23fcf0fbf99cad4e930c47f9788d5b1596e	not-for-merge	tag '4.0.1' of https://github.com/OpenKitten/MongoKitten
+ec9e97c2f2965994f21a6831fd076b7b1272b3c9	not-for-merge	tag '4.0.10' of https://github.com/OpenKitten/MongoKitten
+5301a85290ce5bf0a8ac751ab09021fe2e8adafa	not-for-merge	tag '4.0.11' of https://github.com/OpenKitten/MongoKitten
+3ce21752112b949e1da5322107db3500616099c0	not-for-merge	tag '4.0.12' of https://github.com/OpenKitten/MongoKitten
+1dde3421fe16d41ac27a3381d1a05764c8286ca4	not-for-merge	tag '4.0.13' of https://github.com/OpenKitten/MongoKitten
+8b4a208dbbf1ac431a44431103e153d612751d24	not-for-merge	tag '4.0.14' of https://github.com/OpenKitten/MongoKitten
+d74be31af2094ed6e7804df31650b6a6aa635a75	not-for-merge	tag '4.0.15' of https://github.com/OpenKitten/MongoKitten
+7dad4103585d5868151442ab3be0aa36c022e774	not-for-merge	tag '4.0.16' of https://github.com/OpenKitten/MongoKitten
+9727364c5e2ffca95528f37413fd7dd87f64456e	not-for-merge	tag '4.0.17' of https://github.com/OpenKitten/MongoKitten
+f564cc39c6088c23bbafd7ea8910dc270517b77e	not-for-merge	tag '4.0.18' of https://github.com/OpenKitten/MongoKitten
+c686fa863dab96933743ff308769ba8abe295a31	not-for-merge	tag '4.0.19' of https://github.com/OpenKitten/MongoKitten
+1084ded360140364da1f975287cd2ae36d5df54e	not-for-merge	tag '4.0.2' of https://github.com/OpenKitten/MongoKitten
+b20d2024c6a041d5c6f0e5fc6acaed4ff107787f	not-for-merge	tag '4.0.3' of https://github.com/OpenKitten/MongoKitten
+ef0d683a7a25f820d70faff31acbbea2f743517a	not-for-merge	tag '4.0.4' of https://github.com/OpenKitten/MongoKitten
+ad10d486b349cfaab0b241dc23dbab23fcd0905f	not-for-merge	tag '4.0.5' of https://github.com/OpenKitten/MongoKitten
+e8cb344636fd388e3b39c3e088e25f71110240f3	not-for-merge	tag '4.0.6' of https://github.com/OpenKitten/MongoKitten
+ec03b56e6233d6f4e61ab302502a53214c127b85	not-for-merge	tag '4.0.7' of https://github.com/OpenKitten/MongoKitten
+8d77a6334049f99aad0b803a7304a2bcc68b264c	not-for-merge	tag '4.0.8' of https://github.com/OpenKitten/MongoKitten
+a19da809e5da7e92f7afaef8ac8fc3c9dc8b623f	not-for-merge	tag '4.0.9' of https://github.com/OpenKitten/MongoKitten
+698af273ec1462584cb274a05ed87a02011363f7	not-for-merge	tag '4.1.0' of https://github.com/OpenKitten/MongoKitten
+cb00352dc80035eadafbefd5545078b75c24f75b	not-for-merge	tag '4.1.1' of https://github.com/OpenKitten/MongoKitten
+0457f863319f0509a2f9660ec7d6f639bc566bbb	not-for-merge	tag '4.1.2' of https://github.com/OpenKitten/MongoKitten
+f564cc39c6088c23bbafd7ea8910dc270517b77e	not-for-merge	tag '4.1.3' of https://github.com/OpenKitten/MongoKitten
+c7c26323a5c183293014c64ca658ee2ab568d384	not-for-merge	tag '4.1.4-swift5' of https://github.com/OpenKitten/MongoKitten
+5591c30f395a684e8ceb134ef464df461bba55b0	not-for-merge	tag '5.0.0' of https://github.com/OpenKitten/MongoKitten
+a3e8cdfd9c80486bbccb3b435ff5de9f0f56c58b	not-for-merge	tag '5.0.0-alpha.1' of https://github.com/OpenKitten/MongoKitten
+1660c133ddf26bb5d05bc9c3b727b03936b9f376	not-for-merge	tag '5.0.0-beta.1' of https://github.com/OpenKitten/MongoKitten
+61d20abeb638d783aff7dc104ecc916b1e813550	not-for-merge	tag '5.1.0' of https://github.com/OpenKitten/MongoKitten
+86d771dd5cf366a9141204aa2bb0e2f2ea7df60c	not-for-merge	tag '5.1.1' of https://github.com/OpenKitten/MongoKitten
+d1b95efc3d921957c1d49259d33aef37045e4ac9	not-for-merge	tag '5.1.10' of https://github.com/OpenKitten/MongoKitten
+818e132111503daef254b643dd790db5146e0948	not-for-merge	tag '5.1.11' of https://github.com/OpenKitten/MongoKitten
+d9f7e60007d310d035465ed81121ea4cedd5cb45	not-for-merge	tag '5.1.13' of https://github.com/OpenKitten/MongoKitten
+71c3f5bb6924de69d72d7b9936ec0fa48a70a950	not-for-merge	tag '5.1.14' of https://github.com/OpenKitten/MongoKitten
+edb391c447b255fe67e830251569414eba44af6c	not-for-merge	tag '5.1.15' of https://github.com/OpenKitten/MongoKitten
+61c6810342091730c444007909eee310c5fa70c6	not-for-merge	tag '5.1.2' of https://github.com/OpenKitten/MongoKitten
+419bd8ea9c0b6da76c5fc99c2edafdf272b5d2db	not-for-merge	tag '5.1.3' of https://github.com/OpenKitten/MongoKitten
+3c86852db1d95c6285aa8a9e291dacb11c090b9c	not-for-merge	tag '5.1.4' of https://github.com/OpenKitten/MongoKitten
+6d913ed14a04eba51e27e7e085b787cd05231974	not-for-merge	tag '5.1.5' of https://github.com/OpenKitten/MongoKitten
+2fee5050e7b6ac6c6e9e1d783e280b42f9f86380	not-for-merge	tag '5.1.6' of https://github.com/OpenKitten/MongoKitten
+52b6039f29e2b460f085843fcaef1b1b3bdaf300	not-for-merge	tag '5.1.7' of https://github.com/OpenKitten/MongoKitten
+07458aa3f4f014c3ebb55e72bb56ebaeca5c3764	not-for-merge	tag '5.1.8' of https://github.com/OpenKitten/MongoKitten
+c71da973c45dd387c09d2308efbafc247f4dccde	not-for-merge	tag '5.1.9' of https://github.com/OpenKitten/MongoKitten
+47f04147a6bacfd209cf1fe831bcae096aef433c	not-for-merge	tag '6.0.0' of https://github.com/OpenKitten/MongoKitten
+75dc45377e3cb70e83415563035f51c4d91d27d5	not-for-merge	tag '6.0.1' of https://github.com/OpenKitten/MongoKitten
+e98e2f76bbe5723812231fbf32e5c99d4ed2cb78	not-for-merge	tag '6.0.2' of https://github.com/OpenKitten/MongoKitten
+416edab9552f89a6d4134913649731c200fe9ee2	not-for-merge	tag '6.0.3' of https://github.com/OpenKitten/MongoKitten
+e4fb0a7033a890e017e2212c15822f026e4d0c36	not-for-merge	tag '6.0.4' of https://github.com/OpenKitten/MongoKitten
+01c3dfb3687a8d46c2108ff795d4b61029c11c81	not-for-merge	tag '6.0.5' of https://github.com/OpenKitten/MongoKitten
+5c9f453e54661ae86d09d97dffa2d9a26b4b506b	not-for-merge	tag '6.0.6' of https://github.com/OpenKitten/MongoKitten
+5c9f453e54661ae86d09d97dffa2d9a26b4b506b	not-for-merge	tag '6.0.7' of https://github.com/OpenKitten/MongoKitten
+9166f50796bbab653328f65249d0c44650dd7498	not-for-merge	tag '6.0.8' of https://github.com/OpenKitten/MongoKitten
+4ff70185d33ef724b7c01eac671a7f42be41c20d	not-for-merge	tag '6.0.9' of https://github.com/OpenKitten/MongoKitten
+0f8fa4704ed56a1a11f313801024d2204a8514ce	not-for-merge	tag '6.1.0' of https://github.com/OpenKitten/MongoKitten
+3706cfab07a78443e1b51d44abde549db7ec8bfb	not-for-merge	tag '6.2.0' of https://github.com/OpenKitten/MongoKitten
+1692b0d4440be92d0b2614d45f547de71f5b7cdd	not-for-merge	tag '6.2.1' of https://github.com/OpenKitten/MongoKitten
+31491305924fea0e8a3844adffb4126981b5475d	not-for-merge	tag '6.2.2' of https://github.com/OpenKitten/MongoKitten
+bfe4b2978b5bb084f0e3473fe2a30170e4f2ada1	not-for-merge	tag '6.2.3' of https://github.com/OpenKitten/MongoKitten
+6858a970b1ad00cd3a901993a02490eecd430e96	not-for-merge	tag '6.3.0' of https://github.com/OpenKitten/MongoKitten
+b84f9ee1174cb9ab683de4ba33fae48fc6121d81	not-for-merge	tag '6.3.1' of https://github.com/OpenKitten/MongoKitten
+a0ed627a3b64b1e3d4dabb86de621f0fdbc55634	not-for-merge	tag '6.4.0' of https://github.com/OpenKitten/MongoKitten
+edd525b22a83d0c30191d2c93dd4fee329da8f24	not-for-merge	tag '6.4.1' of https://github.com/OpenKitten/MongoKitten
+f2cf1a0d4e7a1c6e8937da62920b8c428e95c9fa	not-for-merge	tag '6.5.0' of https://github.com/OpenKitten/MongoKitten
+288f16afaa85b0982cf794217c6cdbdb46689ebe	not-for-merge	tag '6.5.1' of https://github.com/OpenKitten/MongoKitten
+f1c891eb3ab495756761a92e56a8e1748f788530	not-for-merge	tag '6.5.2' of https://github.com/OpenKitten/MongoKitten
+caa59c3181d94284f106428d41e578a8655da35c	not-for-merge	tag '6.6.0' of https://github.com/OpenKitten/MongoKitten
+46f11d09f11d57d05b969c1f204d954d73696b20	not-for-merge	tag '6.6.1' of https://github.com/OpenKitten/MongoKitten
+b8d4b3fb64dab94e94e76347d011845777cb3e1a	not-for-merge	tag '6.6.2' of https://github.com/OpenKitten/MongoKitten
+a4b5f6c2a3404241c04d327b0543d0f91fd6a704	not-for-merge	tag '6.6.3' of https://github.com/OpenKitten/MongoKitten
+a1877877ff173461e6168f57fbf6603628bfbf91	not-for-merge	tag '6.6.4' of https://github.com/OpenKitten/MongoKitten
+1607a1ebac7f4d02ecbc120c216ebd89ed0ebc6d	not-for-merge	tag '6.6.5' of https://github.com/OpenKitten/MongoKitten
+7ec7674253d6533ab7f0f067a2666d838c32256f	not-for-merge	tag '6.6.6' of https://github.com/OpenKitten/MongoKitten
+50944c6f179d42c066943f0a2ffdb677f06be0a3	not-for-merge	tag '6.6.7' of https://github.com/OpenKitten/MongoKitten
+51d51f6b849c4ff88abff5bbb8fcfbc6c3228b24	not-for-merge	tag '6.6.8' of https://github.com/OpenKitten/MongoKitten
+22352b542551c9f69789658c2325c7b929639277	not-for-merge	tag '6.6.9' of https://github.com/OpenKitten/MongoKitten
+7a9d7b4004573553f49e4ef2d62b7ab58de110b0	not-for-merge	tag '6.7.0' of https://github.com/OpenKitten/MongoKitten
+311b793a4d3d3462ea4c569acbcd5366d1528dc8	not-for-merge	tag '6.7.1' of https://github.com/OpenKitten/MongoKitten
+d22edbbf262d6925dbaed74cc83fa8953e867590	not-for-merge	tag '6.7.2' of https://github.com/OpenKitten/MongoKitten
+25186c3f0ce69b6350fdbf067e8befc02e9a8ecc	not-for-merge	tag '6.7.3' of https://github.com/OpenKitten/MongoKitten
+cb99975e6ae6f2de2821080f3789aaf831752187	not-for-merge	tag '6.7.4' of https://github.com/OpenKitten/MongoKitten
+418dff41f6999883d8dfc408ff3ac1f9157f3db2	not-for-merge	tag '6.7.5' of https://github.com/OpenKitten/MongoKitten
+4850c77a604fa10fc16c8ccac0d808b6461a0f74	not-for-merge	tag '7.0.0' of https://github.com/OpenKitten/MongoKitten
+12b525b52b4b2bb0726a7cc9e2a6d8a46ba9c902	not-for-merge	tag '7.0.0-beta.1' of https://github.com/OpenKitten/MongoKitten
+79938e923cdd9eb1628edae50226cbd61990e33e	not-for-merge	tag '7.0.0-beta.2' of https://github.com/OpenKitten/MongoKitten
+ea72fedb1849e4ea53db593d75b660d50d21c7d9	not-for-merge	tag '7.0.0-beta.3' of https://github.com/OpenKitten/MongoKitten
+88d9df19c116ce5d72e187d4d5e676ebb5cb3307	not-for-merge	tag '7.0.0-beta.4' of https://github.com/OpenKitten/MongoKitten
+676e2287490e0cdc1ff28b6f13911188ebd592ee	not-for-merge	tag '7.0.0-beta.5' of https://github.com/OpenKitten/MongoKitten
+12a4ad53ff604623b9df5b68d72e33e7f864756c	not-for-merge	tag '7.0.0-beta.6' of https://github.com/OpenKitten/MongoKitten
+468cdc50510d7e78742aff3c16d9c66361c84206	not-for-merge	tag '7.0.1' of https://github.com/OpenKitten/MongoKitten
+ed2e5f6724d009daa05e822e3d273c406447e045	not-for-merge	tag '7.0.2' of https://github.com/OpenKitten/MongoKitten

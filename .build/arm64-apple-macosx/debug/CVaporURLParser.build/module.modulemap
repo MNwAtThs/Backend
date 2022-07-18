@@ -1,0 +1,4 @@
+module CVaporURLParser {
+    umbrella "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/checkouts/vapor/Sources/CVaporURLParser/include"
+    export *
+}

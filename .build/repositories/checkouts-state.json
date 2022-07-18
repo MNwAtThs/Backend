@@ -1,0 +1,119 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/apple/swift-algorithms.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-algorithms.git",
+        "subpath" : "swift-algorithms-86635982"
+      },
+      "https://github.com/apple/swift-collections.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-collections.git",
+        "subpath" : "swift-collections-51f90653"
+      },
+      "https://github.com/apple/swift-crypto.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-crypto.git",
+        "subpath" : "swift-crypto-02716821"
+      },
+      "https://github.com/apple/swift-log.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-log.git",
+        "subpath" : "swift-log-df1c07b5"
+      },
+      "https://github.com/apple/swift-metrics.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-metrics.git",
+        "subpath" : "swift-metrics-fd3e4fc2"
+      },
+      "https://github.com/apple/swift-nio-extras.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-nio-extras.git",
+        "subpath" : "swift-nio-extras-598233f2"
+      },
+      "https://github.com/apple/swift-nio-http2.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-nio-http2.git",
+        "subpath" : "swift-nio-http2-aeaf8877"
+      },
+      "https://github.com/apple/swift-nio-ssl.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-nio-ssl.git",
+        "subpath" : "swift-nio-ssl-93eb7dfa"
+      },
+      "https://github.com/apple/swift-nio-transport-services.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-nio-transport-services.git",
+        "subpath" : "swift-nio-transport-services-91c80623"
+      },
+      "https://github.com/apple/swift-nio.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-nio.git",
+        "subpath" : "swift-nio-b68c973e"
+      },
+      "https://github.com/apple/swift-numerics" : {
+        "repositoryURL" : "https://github.com/apple/swift-numerics",
+        "subpath" : "swift-numerics-9e344942"
+      },
+      "https://github.com/OpenKitten/BSON.git" : {
+        "repositoryURL" : "https://github.com/OpenKitten/BSON.git",
+        "subpath" : "BSON-6f432e9e"
+      },
+      "https://github.com/OpenKitten/MongoKitten.git" : {
+        "repositoryURL" : "https://github.com/OpenKitten/MongoKitten.git",
+        "subpath" : "MongoKitten-605bb337"
+      },
+      "https://github.com/OpenKitten/NioDNS.git" : {
+        "repositoryURL" : "https://github.com/OpenKitten/NioDNS.git",
+        "subpath" : "NioDNS-8640317a"
+      },
+      "https://github.com/swift-server/async-http-client.git" : {
+        "repositoryURL" : "https://github.com/swift-server/async-http-client.git",
+        "subpath" : "async-http-client-0b7b4e02"
+      },
+      "https://github.com/swift-server/swift-backtrace.git" : {
+        "repositoryURL" : "https://github.com/swift-server/swift-backtrace.git",
+        "subpath" : "swift-backtrace-9357c3bf"
+      },
+      "https://github.com/vapor/async-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/async-kit.git",
+        "subpath" : "async-kit-2514f2ff"
+      },
+      "https://github.com/vapor/console-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/console-kit.git",
+        "subpath" : "console-kit-b0154697"
+      },
+      "https://github.com/vapor/fluent-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/fluent-kit.git",
+        "subpath" : "fluent-kit-44c6ebdc"
+      },
+      "https://github.com/vapor/fluent-mongo-driver.git" : {
+        "repositoryURL" : "https://github.com/vapor/fluent-mongo-driver.git",
+        "subpath" : "fluent-mongo-driver-aca4a699"
+      },
+      "https://github.com/vapor/fluent.git" : {
+        "repositoryURL" : "https://github.com/vapor/fluent.git",
+        "subpath" : "fluent-3afa8fce"
+      },
+      "https://github.com/vapor/leaf-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/leaf-kit.git",
+        "subpath" : "leaf-kit-b4f237eb"
+      },
+      "https://github.com/vapor/leaf.git" : {
+        "repositoryURL" : "https://github.com/vapor/leaf.git",
+        "subpath" : "leaf-93c29d9f"
+      },
+      "https://github.com/vapor/multipart-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/multipart-kit.git",
+        "subpath" : "multipart-kit-c9bb80bd"
+      },
+      "https://github.com/vapor/routing-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/routing-kit.git",
+        "subpath" : "routing-kit-26a87ff1"
+      },
+      "https://github.com/vapor/sql-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/sql-kit.git",
+        "subpath" : "sql-kit-c8312a55"
+      },
+      "https://github.com/vapor/vapor.git" : {
+        "repositoryURL" : "https://github.com/vapor/vapor.git",
+        "subpath" : "vapor-2c13b66e"
+      },
+      "https://github.com/vapor/websocket-kit.git" : {
+        "repositoryURL" : "https://github.com/vapor/websocket-kit.git",
+        "subpath" : "websocket-kit-3f7475c7"
+      }
+    }
+  },
+  "version" : 1
+}

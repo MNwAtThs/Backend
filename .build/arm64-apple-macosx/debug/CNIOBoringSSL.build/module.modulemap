@@ -1,0 +1,4 @@
+module CNIOBoringSSL {
+    umbrella header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL.h"
+    export *
+}

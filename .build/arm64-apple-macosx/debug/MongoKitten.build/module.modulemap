@@ -1,0 +1,4 @@
+module MongoKitten {
+    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/MongoKitten.build/MongoKitten-Swift.h"
+    requires objc
+}

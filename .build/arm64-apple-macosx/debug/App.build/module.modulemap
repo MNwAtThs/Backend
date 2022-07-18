@@ -1,0 +1,4 @@
+module App {
+    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/App.build/App-Swift.h"
+    requires objc
+}

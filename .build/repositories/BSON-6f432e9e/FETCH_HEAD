@@ -1,0 +1,174 @@
+eb4ff0def92e8a74aa44f9f927ebae5bc3a05f57	not-for-merge	branch 'bson5' of https://github.com/OpenKitten/BSON
+5ef02954ff53960ae6fba46cd03c7bee51deb62e	not-for-merge	branch 'feature/date-from-timestamp' of https://github.com/OpenKitten/BSON
+20b8480c0bdd35e8a466bf2554d9d1f9347c7ef2	not-for-merge	branch 'feature/hashable-document' of https://github.com/OpenKitten/BSON
+4118328b88b4554183bcf298a6fb4e8770929e7d	not-for-merge	branch 'framework' of https://github.com/OpenKitten/BSON
+936e8075bbfa39abf9920c229b59cb4a0690354d	not-for-merge	branch 'gh-pages' of https://github.com/OpenKitten/BSON
+a428a9c74de49305697401e35681545416e289d6	not-for-merge	branch 'jo-decoder-performance' of https://github.com/OpenKitten/BSON
+534a6950df83f98469f0e2f1b65006247510bcd3	not-for-merge	branch 'jo-hopefully-faster-cstring-check' of https://github.com/OpenKitten/BSON
+24e47dc2145702d005d4a40b5ebacf8628877444	not-for-merge	branch 'master/5.2' of https://github.com/OpenKitten/BSON
+68059f3834c8e9e6b03d7acb398a55925bdbaf69	not-for-merge	branch 'master/6.0' of https://github.com/OpenKitten/BSON
+40956d97c36aa166b8baea5add897864e1568a78	not-for-merge	branch 'master/7.0' of https://github.com/OpenKitten/BSON
+e5f3c18e89048961156f3cb3af7f662979a2d0a9	not-for-merge	branch 'master/8.0' of https://github.com/OpenKitten/BSON
+11f9955a7fece9b51271f1d284224f8c88932cad	not-for-merge	branch 'public-bson-error' of https://github.com/OpenKitten/BSON
+8497aa4fd149ac9696ef101a1a90ddb92f43bdf2	not-for-merge	branch 'swift4' of https://github.com/OpenKitten/BSON
+e4fa03b1d9dcbde3a91fddd437515819a74302c5	not-for-merge	'refs/pull/10/head' of https://github.com/OpenKitten/BSON
+20f5226a7b8f51d48b091846fb5d3f83f0c88ed3	not-for-merge	'refs/pull/14/head' of https://github.com/OpenKitten/BSON
+aabda09059ac39de15c711dcac6180f0c910bcb4	not-for-merge	'refs/pull/19/head' of https://github.com/OpenKitten/BSON
+07d9c9c64f0192547d50b5c1c3920f64a08f447c	not-for-merge	'refs/pull/20/head' of https://github.com/OpenKitten/BSON
+3a752f4d76b8791f122dec157a3cbb27cf0344d2	not-for-merge	'refs/pull/21/head' of https://github.com/OpenKitten/BSON
+be94a6726d1182a64dbdf083e49ea8a276b96ca9	not-for-merge	'refs/pull/24/head' of https://github.com/OpenKitten/BSON
+5fa200a4cdb08609da461c1c8700794823d07717	not-for-merge	'refs/pull/39/head' of https://github.com/OpenKitten/BSON
+e8fc65d9843504d73b46ad02b4b079d473040d52	not-for-merge	'refs/pull/39/merge' of https://github.com/OpenKitten/BSON
+908e2368ed13ff601aa5b337303a4395c1791e33	not-for-merge	'refs/pull/42/head' of https://github.com/OpenKitten/BSON
+dc826a10824976447477dfeeb039f523d3ec6987	not-for-merge	'refs/pull/44/head' of https://github.com/OpenKitten/BSON
+61c98fe7e949f397a8286298578010dd16aa742d	not-for-merge	'refs/pull/44/merge' of https://github.com/OpenKitten/BSON
+018aa3bb03711e22ed46bece00dcef7c0c7fddea	not-for-merge	'refs/pull/46/head' of https://github.com/OpenKitten/BSON
+8b17e1ca01c694799859b73f9e2bd535d9dbfe2c	not-for-merge	'refs/pull/46/merge' of https://github.com/OpenKitten/BSON
+b240c2d7943e4546cc2e429b94c5133cfff91f7c	not-for-merge	'refs/pull/49/head' of https://github.com/OpenKitten/BSON
+0882b2a840c4134089a3110678af03b43caea789	not-for-merge	'refs/pull/49/merge' of https://github.com/OpenKitten/BSON
+e6c13feb024fe04c7048467536ac45e3ded4cebb	not-for-merge	'refs/pull/53/head' of https://github.com/OpenKitten/BSON
+b7d23c23ed86e5b2a97049ff9b8252c4019975f8	not-for-merge	'refs/pull/54/head' of https://github.com/OpenKitten/BSON
+99a9ce4315c4a45c543b905f948ebbae3b28d41e	not-for-merge	'refs/pull/56/head' of https://github.com/OpenKitten/BSON
+192fee2809401a278940386c56bfab08427b87b9	not-for-merge	'refs/pull/57/head' of https://github.com/OpenKitten/BSON
+11f9955a7fece9b51271f1d284224f8c88932cad	not-for-merge	'refs/pull/62/head' of https://github.com/OpenKitten/BSON
+f2bccdee8f7201ee818d78485362862ea8d578c0	not-for-merge	'refs/pull/65/head' of https://github.com/OpenKitten/BSON
+e71a21597f9558e576daeaec48be3f5c75a0e6fc	not-for-merge	'refs/pull/66/head' of https://github.com/OpenKitten/BSON
+9af175ab25d6b7987965f6109081a3440318d33e	not-for-merge	'refs/pull/68/head' of https://github.com/OpenKitten/BSON
+c5e320567fdb3b42819e2491bd722f34f51a09c9	not-for-merge	tag '0.0.20170629' of https://github.com/OpenKitten/BSON
+ee77ffd1052b911795605d25de1673692cef1821	not-for-merge	tag '0.0.20170720' of https://github.com/OpenKitten/BSON
+be6911a3cf8b4d24cd03f527a8102443b8f345c8	not-for-merge	tag '1.0.0' of https://github.com/OpenKitten/BSON
+9f365abdef8cfedac77efb636ea91c6dd7919ff9	not-for-merge	tag '1.1.0' of https://github.com/OpenKitten/BSON
+07aefa16a917cb84c43395857decb6cac7f82056	not-for-merge	tag '1.1.1' of https://github.com/OpenKitten/BSON
+df14870cb5fa932dd30f21b9e92ba40dfc4e8251	not-for-merge	tag '1.1.2' of https://github.com/OpenKitten/BSON
+89d35f14483409cfcf26c7f9b9ad4e0c46feab84	not-for-merge	tag '1.1.3' of https://github.com/OpenKitten/BSON
+ddd175b4af15199fa0c3449b7f9bcdd6f1bd17fc	not-for-merge	tag '1.1.4' of https://github.com/OpenKitten/BSON
+4ac3da70055a93e440799ee9bb5feffab56d3337	not-for-merge	tag '1.1.5' of https://github.com/OpenKitten/BSON
+2c0163939da602749f1177e4655401f2102d4026	not-for-merge	tag '1.2.0' of https://github.com/OpenKitten/BSON
+52c5108fcda75dba56a066a611a9b27e49bb43e6	not-for-merge	tag '1.2.1' of https://github.com/OpenKitten/BSON
+103e2f405bd94b2e0e35e63b32337e2a0fa82c5d	not-for-merge	tag '1.2.2' of https://github.com/OpenKitten/BSON
+b527e7b56e1d17a55b3c49d77cc9ffb7d4dea59a	not-for-merge	tag '1.2.3' of https://github.com/OpenKitten/BSON
+2b54d70fb99e269a22c3d88e7ddc08d24f02d9b1	not-for-merge	tag '1.2.4' of https://github.com/OpenKitten/BSON
+5ca52144a4ed7392b62a2d49fc4ae4250b9979b6	not-for-merge	tag '1.2.5' of https://github.com/OpenKitten/BSON
+c8f8f53d1994b74536d2150d43b5427f830a126b	not-for-merge	tag '1.2.6' of https://github.com/OpenKitten/BSON
+144c826ccf46cf4ad4dd0d5eecfcaf46fea07578	not-for-merge	tag '1.2.7' of https://github.com/OpenKitten/BSON
+a22f833f9ea091eed69703b4301a06c9143c1be6	not-for-merge	tag '1.3.0' of https://github.com/OpenKitten/BSON
+bc4de72e64fbb7a2f3738c56472ef8bb4b1ffe09	not-for-merge	tag '2.0.0' of https://github.com/OpenKitten/BSON
+477955a887024b1839dd441635551809c8cc27c4	not-for-merge	tag '2.1.0' of https://github.com/OpenKitten/BSON
+eebefc2a6ea52ac8fb4aab455edcceee2279e52e	not-for-merge	tag '2.2.0' of https://github.com/OpenKitten/BSON
+88c0d10ad0c4d392cf8ca7ddea41748bf075a7d0	not-for-merge	tag '2.2.1' of https://github.com/OpenKitten/BSON
+d44153f1e8ed10bd308df04cb1db026d3a107e4f	not-for-merge	tag '2.2.2' of https://github.com/OpenKitten/BSON
+2e729bb9fe5ef73b649a66117b1b767b98411897	not-for-merge	tag '2.3.0' of https://github.com/OpenKitten/BSON
+f5df8d7d3b674290182ced975f7d835259adbe7d	not-for-merge	tag '2.3.1' of https://github.com/OpenKitten/BSON
+13eeb9d4d178ff13bbba2b3fe7b531efed62a8a5	not-for-merge	tag '2.3.2' of https://github.com/OpenKitten/BSON
+3f047b88c643ba8783f5d436894d45547a630d39	not-for-merge	tag '3.0.0' of https://github.com/OpenKitten/BSON
+7b95a647421a5cb28dee1103e2bd20a00db6ed38	not-for-merge	tag '3.1.0' of https://github.com/OpenKitten/BSON
+f451812db5de90f6836b551b48dbd53c93abb8e8	not-for-merge	tag '3.1.1' of https://github.com/OpenKitten/BSON
+0d49e242e03135db7bdf32c760d1bc31058c9304	not-for-merge	tag '3.1.2' of https://github.com/OpenKitten/BSON
+677b060101d8d25761dd2d8bf2c4f9ea600cda93	not-for-merge	tag '3.2.0' of https://github.com/OpenKitten/BSON
+8570631a0ea7c2784b3221ec8daefd713014cba9	not-for-merge	tag '3.3.0' of https://github.com/OpenKitten/BSON
+1029c497d22148755c33f4f74b2e399512a51e80	not-for-merge	tag '3.3.1' of https://github.com/OpenKitten/BSON
+f0845482f1955391da871473b9daf16d12ac091b	not-for-merge	tag '3.4.0' of https://github.com/OpenKitten/BSON
+c521f7ae7603c90acff6bdc5bb3d5c7c5de2f7f5	not-for-merge	tag '3.4.1' of https://github.com/OpenKitten/BSON
+66ee5d2a92fb41ff87f7307e0350b374f5ccf743	not-for-merge	tag '3.4.2' of https://github.com/OpenKitten/BSON
+3e4487048ce64aa65a288649f71f2e75d7b7616b	not-for-merge	tag '3.5.0' of https://github.com/OpenKitten/BSON
+2c85f41894b52a0149d2fc2ef836c6933688637c	not-for-merge	tag '3.5.1' of https://github.com/OpenKitten/BSON
+048a1ae66e219e1aee9d3b6116e5672688af01dc	not-for-merge	tag '3.5.2' of https://github.com/OpenKitten/BSON
+6ee8ee08f28f5104cc5fa0a2768da49b99cd004e	not-for-merge	tag '3.5.3' of https://github.com/OpenKitten/BSON
+5eeb36ab68ba6386b180f57bba557028fdb788ab	not-for-merge	tag '3.5.4' of https://github.com/OpenKitten/BSON
+b4dddc2f5ed1a055abb757dbfad437a80b1dc7d5	not-for-merge	tag '3.5.5' of https://github.com/OpenKitten/BSON
+a66143e5330d7296fdb0400c3bf42176b73fdc59	not-for-merge	tag '3.5.6' of https://github.com/OpenKitten/BSON
+be503fd41235370e1dcc3d6630d14def08f2a2f1	not-for-merge	tag '3.6.0' of https://github.com/OpenKitten/BSON
+26c0d2d7b64202db5d1c514f9407ba8874da889c	not-for-merge	tag '3.6.1' of https://github.com/OpenKitten/BSON
+fe069a319ff570dc02854deb49f78c9653b42fba	not-for-merge	tag '3.7.0' of https://github.com/OpenKitten/BSON
+51382579c876ce81862af5850e389fbc4c63694a	not-for-merge	tag '3.7.1' of https://github.com/OpenKitten/BSON
+a56e21092c784846c7738c7143575fb091a2b0d8	not-for-merge	tag '3.7.2' of https://github.com/OpenKitten/BSON
+bdf32b830799554b1de3f91281203781c9e654bb	not-for-merge	tag '3.8.0' of https://github.com/OpenKitten/BSON
+22252eeda5b53bcebf621a46c68e2470219e9770	not-for-merge	tag '3.8.1' of https://github.com/OpenKitten/BSON
+0050e939a220e9797c5384a4a16d1e71e7b2dfdf	not-for-merge	tag '3.8.2' of https://github.com/OpenKitten/BSON
+a1b31741566ff0b9a03d67f22edaf1e983d92380	not-for-merge	tag '3.8.3' of https://github.com/OpenKitten/BSON
+41986ff0b9e4874327520d258481852b3bcaa084	not-for-merge	tag '3.8.4' of https://github.com/OpenKitten/BSON
+eb241a0cf912a915c7b37604cd994c262a66b2b1	not-for-merge	tag '3.8.5' of https://github.com/OpenKitten/BSON
+e74726651d3a3d83e3267078f30e630cde2271e2	not-for-merge	tag '3.8.6' of https://github.com/OpenKitten/BSON
+3dda2b679f582465bc14f84cb57c605dedfb51bb	not-for-merge	tag '3.8.7' of https://github.com/OpenKitten/BSON
+666fb6a113672d09c79f0a8b4098bdbefe33064d	not-for-merge	tag '4.0.0' of https://github.com/OpenKitten/BSON
+735a7f17f15688170afc98f3d6ad06788ee83956	not-for-merge	tag '4.0.0-alpha' of https://github.com/OpenKitten/BSON
+6c206157a2d9fad376f3c9af7ddec30cdb2bbf8d	not-for-merge	tag '4.0.0-alpha2' of https://github.com/OpenKitten/BSON
+f8f58c587ea14f6f7fb2d4454852d4db0dc1e2f6	not-for-merge	tag '4.0.0-alpha3' of https://github.com/OpenKitten/BSON
+df7a5a3f87913667a083952500af1af5c6c1a196	not-for-merge	tag '4.0.0-beta1' of https://github.com/OpenKitten/BSON
+58f3077fa0f4779fdc717552ee384fc1b7de2341	not-for-merge	tag '4.0.0-beta2' of https://github.com/OpenKitten/BSON
+3a063ac68df9a1e3abe0d7946524189bdc95f27a	not-for-merge	tag '4.0.1' of https://github.com/OpenKitten/BSON
+28d95e56f4541ae8891cb330a69a774ee037eb01	not-for-merge	tag '4.1.0' of https://github.com/OpenKitten/BSON
+6282f2da93209ce5e0c04617a3f57bbb4ece0043	not-for-merge	tag '4.1.0-beta' of https://github.com/OpenKitten/BSON
+28d95e56f4541ae8891cb330a69a774ee037eb01	not-for-merge	tag '4.1.0-beta2' of https://github.com/OpenKitten/BSON
+8b96488bed243220efaa866fee799b5baaa6cff5	not-for-merge	tag '4.1.1' of https://github.com/OpenKitten/BSON
+046c5572e8ff60116cebc5cd760d7d115c218493	not-for-merge	tag '4.1.2' of https://github.com/OpenKitten/BSON
+d73f44e4551a52ba0d7d18fcd8ac227f580e6774	not-for-merge	tag '4.1.3' of https://github.com/OpenKitten/BSON
+9f3dfc8baf007eabdf2aaf76afdf95bb059345e2	not-for-merge	tag '4.1.4' of https://github.com/OpenKitten/BSON
+543d755865145af0ea4204e233100a8470f1175d	not-for-merge	tag '4.1.5' of https://github.com/OpenKitten/BSON
+4d9d71f12d33ed4051ac0d8cccfa8d2e69992397	not-for-merge	tag '5.0.0' of https://github.com/OpenKitten/BSON
+80040e8b390c219bab5a841e2978fca87e7e767c	not-for-merge	tag '5.0.0-alpha.1' of https://github.com/OpenKitten/BSON
+80040e8b390c219bab5a841e2978fca87e7e767c	not-for-merge	tag '5.0.0-alpha.2' of https://github.com/OpenKitten/BSON
+889a1a65c08c62dcca5d52485285ae2232930d80	not-for-merge	tag '5.0.1' of https://github.com/OpenKitten/BSON
+5197b4db55ce9e59f23450e666a1e902e277ff3e	not-for-merge	tag '5.0.2' of https://github.com/OpenKitten/BSON
+af8992669ffe18358c94c3713201bfbc061574ad	not-for-merge	tag '5.0.3' of https://github.com/OpenKitten/BSON
+40657e6e29a5f21ce1d9f0b54020e763c3bfd67d	not-for-merge	tag '5.0.4' of https://github.com/OpenKitten/BSON
+979f7cd353594e52c22ffb620900c9b3df55b1e3	not-for-merge	tag '5.0.5' of https://github.com/OpenKitten/BSON
+37644ac2967b515b58a3dd3831b109f317ae7859	not-for-merge	tag '5.1.0' of https://github.com/OpenKitten/BSON
+507f6cb53f4851042e153853a305b852ca95f9d0	not-for-merge	tag '5.1.1' of https://github.com/OpenKitten/BSON
+8bc6dab837c73755de3395c88f15ae357c2e8e45	not-for-merge	tag '5.1.2' of https://github.com/OpenKitten/BSON
+87a7473d15574d42089e48d82b8a9e12a863d3fe	not-for-merge	tag '5.1.3' of https://github.com/OpenKitten/BSON
+4efeda0fd802c3bbdaffce264f05a50e12b436c1	not-for-merge	tag '5.1.4' of https://github.com/OpenKitten/BSON
+eb4ff0def92e8a74aa44f9f927ebae5bc3a05f57	not-for-merge	tag '5.1.5' of https://github.com/OpenKitten/BSON
+a1cc56058a7438979cda4f3cc6a92bea3e71ab79	not-for-merge	tag '5.2.0' of https://github.com/OpenKitten/BSON
+8d2a94099f89c2a24fd6d40314d489976ee0579a	not-for-merge	tag '5.2.1' of https://github.com/OpenKitten/BSON
+9bfc24767ed37fcf8dd8c576744eb1c330f2f0e8	not-for-merge	tag '5.2.2' of https://github.com/OpenKitten/BSON
+3edad325da31095c9d54d04c6125f1fec1f3c5bf	not-for-merge	tag '5.2.3' of https://github.com/OpenKitten/BSON
+dc0f39faeaab3febd7706592e52cf6f4edfe8ea2	not-for-merge	tag '5.2.4' of https://github.com/OpenKitten/BSON
+4d9a4aa7211a755c041d926a2a9c3da3ce1c7004	not-for-merge	tag '5.2.6' of https://github.com/OpenKitten/BSON
+7ec725be75a367544ea609f16dec7ea7a946cf2a	not-for-merge	tag '5.2.7-swift5' of https://github.com/OpenKitten/BSON
+a87a3d6c135c7f40e042ceb6e43acbd4628e6cf8	not-for-merge	tag '6.0.0' of https://github.com/OpenKitten/BSON
+d378de84af460523926ef96e3117692894b2b9c3	not-for-merge	tag '6.0.0-beta.1' of https://github.com/OpenKitten/BSON
+b518eb2b62554e896f49a2b37dad3c34aca8c6a3	not-for-merge	tag '6.0.0-beta.2' of https://github.com/OpenKitten/BSON
+0da7aa50faeab00d0619ece3838256206ec7e57b	not-for-merge	tag '6.0.1' of https://github.com/OpenKitten/BSON
+41c48757e8d59d287b6bc55e874aea8eee51fbd7	not-for-merge	tag '6.0.10' of https://github.com/OpenKitten/BSON
+b16c33c8db15446bd59dc93a1929e71a9bd553d9	not-for-merge	tag '6.0.11' of https://github.com/OpenKitten/BSON
+9b66172551529b79871f37b064810ff0bee310af	not-for-merge	tag '6.0.2' of https://github.com/OpenKitten/BSON
+d8d74b7ed600180164c58a75f76f3f5716397f5f	not-for-merge	tag '6.0.3' of https://github.com/OpenKitten/BSON
+f12841c09005a7578b04800610081bd0fc87e2f1	not-for-merge	tag '6.0.4' of https://github.com/OpenKitten/BSON
+8cb634c9a0bc05bdb9adcaae67cfa7ab2244235e	not-for-merge	tag '6.0.5' of https://github.com/OpenKitten/BSON
+7acd68d0e130e1fd7a167cb9ef2d7b28e97c1936	not-for-merge	tag '6.0.6' of https://github.com/OpenKitten/BSON
+602cfb3a0b9d002a21e46ae46911dddafcf92527	not-for-merge	tag '6.0.7' of https://github.com/OpenKitten/BSON
+03fae599f69c3357b18ff41dfb765e49b5d1b58a	not-for-merge	tag '6.0.8' of https://github.com/OpenKitten/BSON
+c2946da49d075467b155640f7a27e32f6afb10a1	not-for-merge	tag '6.0.9' of https://github.com/OpenKitten/BSON
+92bdd9213b8676e1af2023fe5e4e972a89d6864d	not-for-merge	tag '7.0.0' of https://github.com/OpenKitten/BSON
+9dbe94816428922518af93e8f49f3326c7df95d3	not-for-merge	tag '7.0.1' of https://github.com/OpenKitten/BSON
+537ad796a05b4486e83e04c66ad3e5c941a1a7dd	not-for-merge	tag '7.0.10' of https://github.com/OpenKitten/BSON
+493a093832766bd861d4c77db83231d0734c9412	not-for-merge	tag '7.0.11' of https://github.com/OpenKitten/BSON
+fb2052dfe6af168ad2fb19c2f77fc197e051291a	not-for-merge	tag '7.0.12' of https://github.com/OpenKitten/BSON
+efa59a5cd635b5114ca7484cb74b0ae8f24b4d86	not-for-merge	tag '7.0.13' of https://github.com/OpenKitten/BSON
+8d15f3aa0bad315bcae07e303143da2713c9ecdd	not-for-merge	tag '7.0.14' of https://github.com/OpenKitten/BSON
+9da77f12d77b727a02299eb62bb75c84391352af	not-for-merge	tag '7.0.15' of https://github.com/OpenKitten/BSON
+881c0b4da1af3958ef6ba493876cb9b5eb4f960b	not-for-merge	tag '7.0.16' of https://github.com/OpenKitten/BSON
+fc14860d67834d778f9de096ea6ffe071d61c62d	not-for-merge	tag '7.0.17' of https://github.com/OpenKitten/BSON
+a41d350d00d111c51007399329607d5c480994d2	not-for-merge	tag '7.0.18' of https://github.com/OpenKitten/BSON
+2758f14c4cce7b2c25e03b0b878741f5d72d9bd8	not-for-merge	tag '7.0.19' of https://github.com/OpenKitten/BSON
+df1642a6773a26cbb2fcee866c646ff61b56a4c4	not-for-merge	tag '7.0.2' of https://github.com/OpenKitten/BSON
+9c18a004432537ed39a677a09c63e402547f23b1	not-for-merge	tag '7.0.20' of https://github.com/OpenKitten/BSON
+693083a36238bbe22f276a908d5742d63bd826c6	not-for-merge	tag '7.0.21' of https://github.com/OpenKitten/BSON
+bb469570abe3b48bca1b4df67c736b3187658a1c	not-for-merge	tag '7.0.22' of https://github.com/OpenKitten/BSON
+d5969405013b1af010506b43f89ea6a3d0927377	not-for-merge	tag '7.0.23' of https://github.com/OpenKitten/BSON
+d01bb16970c346ec364d59cc02a698ae14bedbb0	not-for-merge	tag '7.0.24' of https://github.com/OpenKitten/BSON
+b04a7deedf8775d0cc841d4f0a923fd84ce62e71	not-for-merge	tag '7.0.25' of https://github.com/OpenKitten/BSON
+a41b4e30e7b7a8afe0261abc7c6ee1d2b363a722	not-for-merge	tag '7.0.26' of https://github.com/OpenKitten/BSON
+1162cfdaec9513bd474e73b30a957a9564a3fe42	not-for-merge	tag '7.0.27' of https://github.com/OpenKitten/BSON
+a4fca56f37effd0da23fbddf032f8d4b1b197a84	not-for-merge	tag '7.0.28' of https://github.com/OpenKitten/BSON
+a4194e1fd68ba2466c9e6e34c83f156eba16d84d	not-for-merge	tag '7.0.29' of https://github.com/OpenKitten/BSON
+39cc13b35fe3ba2b1ec2ecaca61bb00998628207	not-for-merge	tag '7.0.3' of https://github.com/OpenKitten/BSON
+0591e74926047bcb467b4df7c61e8c26e480f2cf	not-for-merge	tag '7.0.4' of https://github.com/OpenKitten/BSON
+d8d894983ec0244908b1e5ffd4251ef9fa171e47	not-for-merge	tag '7.0.5' of https://github.com/OpenKitten/BSON
+998a3842198941e87ec8c8cafe8e2d279d1cf90d	not-for-merge	tag '7.0.6' of https://github.com/OpenKitten/BSON
+d8f22dc1e47a9f572a46963e9a8aebe90c85e35a	not-for-merge	tag '7.0.7' of https://github.com/OpenKitten/BSON
+83bef74d1e6276b58e16f869e010cc95064bb5b4	not-for-merge	tag '7.0.8' of https://github.com/OpenKitten/BSON
+8f7aa0ac13a36b1d762da16dc3eff8aba5575e7b	not-for-merge	tag '7.0.9' of https://github.com/OpenKitten/BSON
+b0ef6be03d3bf9e594b90e5fc576818d7d81586a	not-for-merge	tag '8.0.0' of https://github.com/OpenKitten/BSON
+c97ab8cfde13f3012d309cfc7a8c1fb4aae08eff	not-for-merge	tag '8.0.1' of https://github.com/OpenKitten/BSON

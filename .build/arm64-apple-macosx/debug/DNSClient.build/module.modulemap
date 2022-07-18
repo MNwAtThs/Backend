@@ -1,0 +1,4 @@
+module DNSClient {
+    header "/Users/sergiodeleonjr./Documents/Xcode/Swift/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient-Swift.h"
+    requires objc
+}
