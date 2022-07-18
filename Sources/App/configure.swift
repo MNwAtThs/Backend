@@ -1,35 +1,23 @@
-
-import FluentSQLite
+import Fluent
+import FluentMongoDriver
+import Leaf
 import Vapor
 
-/// Called before your application initializes.
-public func configure(_ config: inout Config, 
-                      _ env: inout Environment, 
-                      _ services: inout Services) throws {
+// configures your application
+public func configure(_ app: Application) throws {
+    // uncomment to serve files from /Public folder
+    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+
+    try app.databases.use(.mongo(
+        connectionString: Environment.get("DATABASE_URL") ?? "mongodb://localhost:27017/vapor_database"
+    ), as: .mongo)
+
+    app.migrations.add(CreateTodo())
+
+    app.views.use(.leaf)
+
     
-    // Register providers first
-    try services.register(FluentSQLiteProvider())
-    
-    // Register routes to the router
-    let router = EngineRouter.default()
-    try routes(router)
-    services.register(router, as: Router.self)
-    
-    // Register middleware
-    var middlewares = MiddlewareConfig()
-    middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
-    services.register(middlewares)
-    
-    // Configure a SQLite database
-    let sqlite = try SQLiteDatabase(storage: .memory)
-    
-    // Register the configured SQLite database to the database config.
-    var databases = DatabasesConfig()
-    databases.add(database: sqlite, as: .sqlite)
-    services.register(databases)
-    
-    // Configure migrations
-    var migrations = MigrationConfig()
-    migrations.add(model: User.self, database: .sqlite)
-    services.register(migrations)
+
+    // register routes
+    try routes(app)
 }
