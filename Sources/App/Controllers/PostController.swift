@@ -11,15 +11,27 @@ struct PostController: RouteCollection {
 }
 
 extension PostController {
-    func createPost(req: Request) async throws -> String {
+    func createPost(req: Request) async throws -> Post {
         // handle posting new post
-        return "create post"
+        // need to get the user first but in theory we could save a post here
+        // for testing purpose we will just add a new user to db
+        let user = User(username: "TESTUSERFORDB")
+        try await user.save(on: req.db) //save the user to the database
+        let post = Post(userId: user.id!)
+        try await post.save(on: req.db)
+        return post
     }
 
-    func getPostById(req: Request) async throws -> String {
-        let id = try req.parameters.require("id")
+    func getPostById(req: Request) async throws -> Post {
+        let id = try req.parameters.require("id") as UUID
+        let post = try await Post.query(on: req.db)
+            .filter(\.$id, .equal, id)
+            .first()
         // handle get post by id
-        return "get post by id: \(id)"
+        guard let post = post else {
+            throw Abort(.notFound)
+        }
+        return post
     }
 
     func getCommentsForId(req: Request) async throws -> String {
