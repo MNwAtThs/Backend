@@ -7,5 +7,14 @@ final class User: Model {
     @ID(key: .id)
     var id: UUID?
 
-    init() {}
+    @Field(key: "username")
+    var username: String
+
+    init() {
+        
+    }
+
+    init(username: String) {
+        self.username = username
+    }
 }
