@@ -11,6 +11,8 @@ struct AuthController: RouteCollection {
 extension AuthController {
     func register(req: Request) async throws -> String {
         // handle registration
+        let user = User()
+        try await user.save(on: req.db)
         return "register"
     }
 
