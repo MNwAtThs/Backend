@@ -1,7 +1,8 @@
 import Fluent
 import Vapor
 
-final class User: Model {
+final class User: Model
+{
   static let schema = "users"
 
   @ID(key: .id)
@@ -12,7 +13,7 @@ final class User: Model {
 
   @Field(key: "password")
   var password: String
-
+ 
   @Field(key: "phone")
   var phone: String
 
