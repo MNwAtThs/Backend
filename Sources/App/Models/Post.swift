@@ -2,26 +2,26 @@ import Fluent
 import Vapor
 
 final class Post: Model {
-  static let schema = "posts"
+    static let schema = "posts"
 
-  @ID(key: .id)
-  var id: UUID?
+    @ID(key: .id)
+    var id: UUID?
 
-  @Field(key: "title")
-  var title: String
+    @Field(key: "title")
+    var title: String
 
-  @Parent(key: "user_id")
-  var user: User
+    @Parent(key: "user_id")
+    var user: User
 
-  init() {}
+    init() {}
 
-  init(userId: User.IDValue, title: String) {
-    self.$user.id = userId
-  }
+    init(userId: User.IDValue, title: String) {
+        self.$user.id = userId
+    }
 
-  init(title: String) {
-    self.title = title
-  }
+    init(title: String) {
+        self.title = title
+    }
 }
 
 extension Post: Content {}
