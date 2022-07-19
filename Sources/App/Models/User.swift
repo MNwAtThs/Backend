@@ -10,6 +10,9 @@ final class User: Model {
     @Field(key: "username")
     var username: String
 
+    @Children(for: \.$user)
+    var posts: [Post]
+
     init() {
         
     }
@@ -18,3 +21,5 @@ final class User: Model {
         self.username = username
     }
 }
+
+extension User: Content {}

@@ -7,17 +7,20 @@ final class Post: Model {
     @ID(key: .id)
     var id: UUID?
 
-    //no idea how the relationships are working for now
-    // @Parent(key: "user_id")
-    // var user: User
+    @Field(key: "title")
+    var title: String
 
-    @Field(key: "user_id")
-    var userId: UUID
+    @Parent(key: "user_id")
+    var user: User
 
     init() {}
 
-    init(userId: UUID) {
-        self.userId = userId
+    init(userId: User.IDValue, title: String) {
+        self.$user.id = userId
+    }
+
+    init(title: String) {
+        self.title = title
     }
 }
 

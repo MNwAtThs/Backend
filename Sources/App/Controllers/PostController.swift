@@ -17,8 +17,8 @@ extension PostController {
         // for testing purpose we will just add a new user to db
         let user = User(username: "TESTUSERFORDB")
         try await user.save(on: req.db) //save the user to the database
-        let post = Post(userId: user.id!)
-        try await post.save(on: req.db)
+        let post = Post(title: "TestPost")
+        try await user.$posts.create(post, on: req.db)
         return post
     }
 

@@ -9,15 +9,22 @@ struct UserController: RouteCollection {
 }
 
 extension UserController {
-    func getUserById(req: Request) async throws -> String {
-        let id = try req.parameters.require("id")
-        // handle get user by id
-        return "get user by id: \(id)"
+    func getUserById(req: Request) async throws -> User {
+        let id = try req.parameters.require("id") as UUID
+        let user = try await User.find(id, on: req.db)
+        guard let user = user else {
+            throw Abort(.notFound)
+        }
+        return user
     }
 
-    func getPostsForUser(req: Request) async throws -> String {
-        let id = try req.parameters.require("id")
-        // handle get posts for user
-        return "get posts for user id: \(id)"
+    func getPostsForUser(req: Request) async throws -> [Post] {
+        let id = try req.parameters.require("id") as UUID
+        let user = try await User.find(id, on: req.db)
+        guard let user = user else {
+            throw Abort(.notFound)
+        }
+        let posts = try await user.$posts.get(on: req.db)
+        return posts
     }
 }
