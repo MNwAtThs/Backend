@@ -1,4 +1,4 @@
-
+import Fluent
 import Vapor
 
 public func routes(_ app: Application) throws {
