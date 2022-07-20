@@ -3,10 +3,12 @@ import Vapor
 struct PostController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped("posts")
-        group.post("", use: createPost)
         group.get(":id", use: getPostById)
         group.get(":id", "comments", use: getCommentsForId)
         group.post(":id", "comments", use: createCommentForId)
+
+        let protected = group.grouped(UserAuthenticator())
+        protected.post("", use: createPost)
     }
 }
 
@@ -15,10 +17,7 @@ extension PostController {
         // handle posting new post
         // need to get the user first but in theory we could save a post here
         // for testing purpose we will just add a new user to db
-        let user = User(
-            username: "TESTUSERFORDB",
-            password: ""
-        )
+        let user = try req.auth.require(User.self)
         try await user.save(on: req.db)  //save the user to the database
         let post = Post(title: "TestPost")
         try await user.$posts.create(post, on: req.db)

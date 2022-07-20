@@ -20,6 +20,9 @@ final class User: Model {
     // var token: String?
 
     @Children(for: \.$user)
+    var tokens: [UserToken]
+
+    @Children(for: \.$user)
     var posts: [Post]
 
     init() {
@@ -33,4 +36,4 @@ final class User: Model {
     }
 }
 
-extension User: Content {}
+extension User: Authenticatable {}
