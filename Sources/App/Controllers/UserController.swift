@@ -17,7 +17,7 @@ extension UserController {
         guard let user = user else {
             throw Abort(.notFound)
         }
-        return .init(id: user.id!, username: user.username)
+        return .init(from: user)
     }
 
     func getPostsForUser(req: Request) async throws -> [Post] {

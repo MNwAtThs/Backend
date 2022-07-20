@@ -33,10 +33,7 @@ extension AuthController {
 
         // return saved user
         return CreateUserDto.Response(
-            user: .init(
-                id: user.id!,
-                username: user.username
-            )
+            user: .init(from: user)
         )
     }
 
@@ -75,11 +72,7 @@ extension AuthController {
 
         // return logged in user and saved JWT token
         return .init(
-            user: .init(
-                id: user.id!,
-                username: user.username,
-                email: user.email
-            ),
+            user: .init(from: user),
             token: jwt
         )
     }
