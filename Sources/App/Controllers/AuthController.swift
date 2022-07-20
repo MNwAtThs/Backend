@@ -1,3 +1,4 @@
+import Redis
 import Shared
 import Vapor
 
@@ -68,9 +69,9 @@ extension AuthController {
         )
         let jwt = try req.jwt.sign(payload)
 
-        // save UserToken to db
-        let userToken = UserToken(id: payload.uuid, userId: userId, jwt: jwt)
-        try await userToken.save(on: req.db)
+        let redisKey: RedisKey = "usertoken:\(jwt)"
+        try await req.redis.set(redisKey, toJSON: payload)
+        _ = try await req.redis.expire(redisKey, after: .hours(1)).get()
 
         // return logged in user and saved JWT token
         return .init(
@@ -78,7 +79,7 @@ extension AuthController {
                 id: user.id!,
                 username: user.username
             ),
-            token: userToken.jwt
+            token: jwt
         )
     }
 }

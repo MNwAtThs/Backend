@@ -14,9 +14,6 @@ final class User: Model {
     var password: String
 
     @Children(for: \.$user)
-    var tokens: [UserToken]
-
-    @Children(for: \.$user)
     var posts: [Post]
 
     init() {
