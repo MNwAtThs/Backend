@@ -2,6 +2,10 @@ import Foundation
 import JWT
 
 struct UserTokenPayload: JWTPayload {
+    static var expiration: Date {
+        Date().advanced(by: 60 * 60)
+    }
+
     enum CodingKeys: String, CodingKey {
         case subject = "sub"
         case expiration = "exp"
@@ -18,7 +22,7 @@ struct UserTokenPayload: JWTPayload {
 
     init(subject: SubjectClaim) {
         self.subject = subject
-        self.expiration = ExpirationClaim(value: Date().advanced(by: 60 * 60))
+        self.expiration = ExpirationClaim(value: UserTokenPayload.expiration)
         self.id = IDClaim(value: UUID().uuidString)
     }
 

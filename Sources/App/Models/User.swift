@@ -13,12 +13,6 @@ final class User: Model {
     @Field(key: "password")
     var password: String
 
-    // @Field(key: "phone")
-    // var phone: String
-
-    // @Field(key: "token")
-    // var token: String?
-
     @Children(for: \.$user)
     var tokens: [UserToken]
 

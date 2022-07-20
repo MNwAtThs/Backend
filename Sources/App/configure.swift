@@ -9,6 +9,8 @@ public func configure(_ app: Application) throws {
     app.migrations.add(InitialMigration(), to: .mongo)
     try app.autoMigrate().wait()
     app.passwords.use(.bcrypt)
+
+    // TODO: Change secret
     app.jwt.signers.use(.hs256(key: "verysecretkey"))
     try routes(app)
 }
