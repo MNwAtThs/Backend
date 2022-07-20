@@ -7,11 +7,14 @@ struct AuthController: RouteCollection {
         let group = routes.grouped("auth")  // this will be /auth
         group.post("register", use: register)  // this will be /auth/register
         group.post("login", use: login)  // this will be /auth/login
+
+        let protected = group.grouped(UserAuthenticator())
+        protected.post("logout", use: logout)
     }
 }
 
 extension AuthController {
-    func register(req: Request) async throws -> CreateUserDto.Response {
+    func register(req: Request) async throws -> Response {
         // validate body
         let body = try req.content.decode(CreateUserDto.Request.self)
         try CreateUserDto.Request.validate(content: req)
@@ -32,9 +35,13 @@ extension AuthController {
         try await user.save(on: req.db)
 
         // return saved user
-        return CreateUserDto.Response(
+        let dto = CreateUserDto.Response(
             user: .init(from: user)
         )
+
+        let response: Response = .init(status: .created)
+        try response.content.encode(dto)
+        return response
     }
 
     func login(req: Request) async throws -> LoginDto.Response {
@@ -66,8 +73,7 @@ extension AuthController {
         )
         let jwt = try req.jwt.sign(payload)
 
-        let redisKey: RedisKey = "usertoken:\(jwt)"
-        try await req.redis.set(redisKey, toJSON: payload)
+        let _ = try await req.redis.sadd([jwt], to: .usertoken(.uuid(userId))).get()
         // _ = try await req.redis.expire(redisKey, after: .hours(1)).get()
 
         // return logged in user and saved JWT token
@@ -75,5 +81,19 @@ extension AuthController {
             user: .init(from: user),
             token: jwt
         )
+    }
+
+    func logout(req: Request) async throws -> Response {
+        let user = try req.auth.require(User.self)
+
+        guard let token = req.headers.bearerAuthorization?.token,
+            let userId = user.id
+        else {
+            throw Abort(.unauthorized)
+        }
+
+        let _ = try await req.redis.srem([token], from: .usertoken(.uuid(userId))).get()
+
+        return .init(status: .noContent, body: .empty)
     }
 }

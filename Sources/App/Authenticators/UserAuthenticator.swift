@@ -15,9 +15,10 @@ struct UserAuthenticator: AsyncBearerAuthenticator {
             .verify(bearer.token, as: UserTokenPayload.self)
 
         // find corresponding UserToken in db
-        let redisKey: RedisKey = "usertoken:\(bearer.token)"
-        guard let exists = try? await request.redis.exists(redisKey).get(),
-            exists > 0,
+        let redisSetKey: RedisKey = "usertokens:\(verified.subject.value)"
+        guard
+            let exists = try? await request.redis.sismember(bearer.token, of: redisSetKey).get(),
+            exists,
             let uuid = UUID(uuidString: verified.subject.value),
             let user = try? await User.find(uuid, on: request.db)
         else {
