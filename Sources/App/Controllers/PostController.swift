@@ -17,8 +17,7 @@ extension PostController {
         // for testing purpose we will just add a new user to db
         let user = User(
             username: "TESTUSERFORDB",
-            password: "",
-            phone: ""
+            password: ""
         )
         try await user.save(on: req.db)  //save the user to the database
         let post = Post(title: "TestPost")

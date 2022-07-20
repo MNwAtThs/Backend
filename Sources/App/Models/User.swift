@@ -13,11 +13,11 @@ final class User: Model {
     @Field(key: "password")
     var password: String
 
-    @Field(key: "phone")
-    var phone: String
+    // @Field(key: "phone")
+    // var phone: String
 
-    @Field(key: "token")
-    var token: String?
+    // @Field(key: "token")
+    // var token: String?
 
     @Children(for: \.$user)
     var posts: [Post]
@@ -26,12 +26,10 @@ final class User: Model {
 
     }
 
-    init(id: UUID? = nil, username: String, password: String, phone: String, token: String? = nil) {
+    init(id: UUID? = nil, username: String, password: String) {
         self.id = id
         self.username = username
         self.password = password
-        self.phone = phone
-        self.token = token
     }
 }
 

@@ -9,23 +9,54 @@ struct AuthController: RouteCollection {
 }
 
 extension AuthController {
-    // this handles the registration of a new user on /auth/register
-    // now if we make a request to /auth/register a new user will be saved to the database
-    func register(req: Request) async throws -> String {
-        // handle registration
-        let user = User(
-            username: "TESTUSERFORDB",
-            password: "",
-            phone: ""
+    func register(req: Request) async throws -> CreateUserDto.Response {
+        let body = try req.content.decode(CreateUserDto.Request.self)
+        try CreateUserDto.Request.validate(content: req)
+
+        let count = try await User.query(on: req.db)
+            .filter(\.$username, .equal, body.username)
+            .count()
+
+        guard count == 0 else {
+            throw Abort(.conflict)
+        }
+
+        let digest = try await req.password.async.hash(body.password)
+        let user = User(username: body.username, password: digest)
+        try await user.save(on: req.db)
+        return CreateUserDto.Response(
+            user: .init(
+                id: user.id!,
+                username: user.username
+            )
         )
-        try await user.save(on: req.db)  //save the user to the database
-        return "i can add anything i want in here and this will be in the response"  // this is the server response
     }
 
-    // this handles the login of an existing user on /auth/login
-    func login(req: Request) async throws -> String {
-        // handle login
+    func login(req: Request) async throws -> LoginDto.Response {
+        let body = try req.content.decode(LoginDto.Request.self)
+        try LoginDto.Request.validate(content: req)
+        let user = try await User.query(on: req.db)
+            .filter(\.$username, .equal, body.username)
+            .first()
 
-        return "login"
+        guard let user = user else {
+            throw Abort(.notFound)
+        }
+
+        guard let isValidPassword = try? req.password.verify(body.password, created: user.password),
+            isValidPassword
+        else {
+            throw Abort(.unauthorized)
+        }
+
+        // Todo: generate JWT Token
+
+        return .init(
+            user: .init(
+                id: user.id!,
+                username: user.username
+            ),
+            token: ""
+        )
     }
 }

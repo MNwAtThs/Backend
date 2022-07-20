@@ -9,13 +9,13 @@ struct UserController: RouteCollection {
 }
 
 extension UserController {
-    func getUserById(req: Request) async throws -> User {
+    func getUserById(req: Request) async throws -> PublicUserDto {
         let id = try req.parameters.require("id") as UUID
         let user = try await User.find(id, on: req.db)
         guard let user = user else {
             throw Abort(.notFound)
         }
-        return user
+        return .init(id: user.id!, username: user.username)
     }
 
     func getPostsForUser(req: Request) async throws -> [Post] {
