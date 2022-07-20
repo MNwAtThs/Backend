@@ -77,7 +77,8 @@ extension AuthController {
         return .init(
             user: .init(
                 id: user.id!,
-                username: user.username
+                username: user.username,
+                email: user.email
             ),
             token: jwt
         )
