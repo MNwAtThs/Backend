@@ -1,4 +1,5 @@
 import Fluent
+import Redis
 import Vapor
 
 struct UserAuthenticator: AsyncBearerAuthenticator {
@@ -10,12 +11,15 @@ struct UserAuthenticator: AsyncBearerAuthenticator {
     ) async throws {
 
         // verify payload
-        let payload = try request.application.jwt.signers
+        let verified = try request.application.jwt.signers
             .verify(bearer.token, as: UserTokenPayload.self)
 
         // find corresponding UserToken in db
-        guard let token = try? await UserToken.find(payload.uuid, on: request.db),
-            let user = try? await token.$user.get(on: request.db)
+        let redisKey: RedisKey = "usertoken:\(bearer.token)"
+        guard let exists = try? await request.redis.exists(redisKey).get(),
+            exists > 0,
+            let uuid = UUID(uuidString: verified.subject.value),
+            let user = try? await User.find(uuid, on: request.db)
         else {
             throw Abort(.unauthorized)
         }
