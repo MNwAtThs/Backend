@@ -71,7 +71,7 @@ extension AuthController {
 
         let redisKey: RedisKey = "usertoken:\(jwt)"
         try await req.redis.set(redisKey, toJSON: payload)
-        _ = try await req.redis.expire(redisKey, after: .hours(1)).get()
+        // _ = try await req.redis.expire(redisKey, after: .hours(1)).get()
 
         // return logged in user and saved JWT token
         return .init(
