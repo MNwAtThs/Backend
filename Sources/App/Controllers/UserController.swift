@@ -1,3 +1,4 @@
+import Shared
 import Vapor
 
 struct UserController: RouteCollection {
