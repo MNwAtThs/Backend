@@ -13,16 +13,18 @@ final class User: Model {
     @Field(key: "password")
     var password: String
 
+    @Field(key: "email")
+    var email: String
+
     @Children(for: \.$user)
     var posts: [Post]
 
-    init() {
+    init() {}
 
-    }
-
-    init(id: UUID? = nil, username: String, password: String) {
+    init(id: UUID? = nil, username: String, email: String, password: String) {
         self.id = id
         self.username = username
+        self.email = email
         self.password = password
     }
 }

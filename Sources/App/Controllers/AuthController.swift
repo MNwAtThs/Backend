@@ -28,7 +28,7 @@ extension AuthController {
         let digest = try await req.password.async.hash(body.password)
 
         // save user to db
-        let user = User(username: body.username, password: digest)
+        let user = User(username: body.username, email: body.email, password: digest)
         try await user.save(on: req.db)
 
         // return saved user
