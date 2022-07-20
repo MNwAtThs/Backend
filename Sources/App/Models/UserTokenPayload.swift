@@ -3,7 +3,7 @@ import JWT
 
 struct UserTokenPayload: JWTPayload {
     static var expiration: Date {
-        Date().advanced(by: 60 * 60)
+        Date().advanced(by: .hours(1))
     }
 
     enum CodingKeys: String, CodingKey {
