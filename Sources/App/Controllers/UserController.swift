@@ -21,8 +21,8 @@ extension UserController {
     }
 
     func getPostsForUser(req: Request) async throws -> [Post] {
-        let id = try req.parameters.require("id") as UUID
-        let user = try await User.find(id, on: req.db)
+        let identifier = try req.parameters.require("id")
+        let user = try await User.findUserByIdOrUsername(identifier, on: req.db)
         guard let user = user else {
             throw Abort(.notFound)
         }
