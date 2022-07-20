@@ -1,7 +1,6 @@
 import Foundation
-import Vapor
 
-struct PublicUserDto: Codable, Content {
+struct PublicUserDto: Codable {
     let id: UUID
     let username: String
 }
