@@ -67,14 +67,18 @@ extension PostController {
     }
 
     func createCommentForId(req: Request) async throws -> Response {
+        let body = try req.content.decode(CreateCommentDto.Request.self)
+        try CreateCommentDto.Request.validate(content: req)
+
         let user = try req.auth.require(User.self)
         let id = try req.parameters.require("id") as UUID
         let post = try await Post.find(id, on: req.db)
+
         guard let post = post else {
             throw Abort(.notFound)
         }
         let comment_count = try await post.$comments.query(on: req.db).count()
-        let comment = Comment(userId: user.id!, postId: post.id!, body: "test")
+        let comment = Comment(userId: user.id!, postId: post.id!, body: body.body)
         try await comment.save(on: req.db)
 
         let dto = CreateCommentDto.Response(
