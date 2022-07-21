@@ -10,7 +10,7 @@ struct UserController: RouteCollection {
 
 extension UserController {
 
-    func getUser(req: Request) async throws -> GetUserDto.Response {
+    func getUser(req: Request) async throws -> PaginatedDto<GetUserDto.Response> {
         let identifier = try req.parameters.require("id")
 
         let (page, limit) = req.pagination(prefix: "posts", defaultLimit: 100, maxLimit: 100)
@@ -25,9 +25,11 @@ extension UserController {
             .map { PublicPostDto(from: $0) }
 
         return .init(
-            user: .init(from: user),
-            posts: posts.items,
-            metadata: .init(from: posts.metadata)
+            data: GetUserDto.Response(
+                user: .init(from: user),
+                posts: posts.items
+            ),
+            metadata: posts.metadata
         )
     }
 }
