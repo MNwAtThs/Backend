@@ -7,7 +7,7 @@ extension PublicPostDto: Content {
             id: from.id!,
             user_id: from.$user.id,
             title: from.title,
-            createdAt: from.created_at ?? Date()
+            created_at: from.created_at ?? Date()
         )
     }
 }
