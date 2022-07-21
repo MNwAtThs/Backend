@@ -23,7 +23,7 @@ extension PostController {
 
         let dto = CreatePostDto.Response(
             user: PublicUserDto(from: user),
-            post: PublicPostDto(from: post)
+            post: PublicPostDto(from: post, comment_count: 0)
         )
 
         let response: Response = .init(status: .created)
@@ -56,8 +56,10 @@ extension PostController {
             commentDtos.append(PublicCommentDto(from: $0))
         }
 
+        let comment_count = try await post.$comments.query(on: req.db).count()
+
         let dto: GetPostDto.Response = .init(
-            post: PublicPostDto(from: post),
+            post: PublicPostDto(from: post, comment_count: comment_count),
             users: users,
             comments: commentDtos
         )
@@ -71,12 +73,13 @@ extension PostController {
         guard let post = post else {
             throw Abort(.notFound)
         }
+        let comment_count = try await post.$comments.query(on: req.db).count()
         let comment = Comment(userId: user.id!, postId: post.id!, body: "test")
         try await comment.save(on: req.db)
 
         let dto = CreateCommentDto.Response(
             user: PublicUserDto(from: user),
-            post: PublicPostDto(from: post),
+            post: PublicPostDto(from: post, comment_count: comment_count),
             comment: PublicCommentDto(from: comment)
         )
 

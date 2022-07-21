@@ -23,7 +23,10 @@ extension UserController {
         let posts = try await user.$posts.query(on: req.db)
             .sort(\.$created_at, .descending)
             .page(withIndex: page, size: limit)
-            .map { PublicPostDto(from: $0) }
+            .map { post -> PublicPostDto in
+                let comment_count = try post.$comments.query(on: req.db).count().wait()
+                return PublicPostDto(from: post, comment_count: comment_count)
+            }
 
         return .init(
             data: GetUserDto.Response(
