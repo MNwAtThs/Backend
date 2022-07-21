@@ -16,6 +16,9 @@ final class Post: Model {
     @Timestamp(key: "created_at", on: .create)
     var created_at: Date?
 
+    @Children(for: \.$post)
+    var comments: [Comment]
+
     init() {}
 
     init(userId: User.IDValue, title: String) {

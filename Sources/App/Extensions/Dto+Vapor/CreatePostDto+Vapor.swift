@@ -1,9 +1,7 @@
 import Shared
 import Vapor
 
-extension CreatePostDto {
-    typealias Response = PublicPostDto
-}
+extension CreatePostDto.Response: Content {}
 
 extension CreatePostDto.Request: Validatable {
     public static func validations(_ validations: inout Validations) {
