@@ -1,3 +1,4 @@
+import Shared
 import Vapor
 
 struct PostController: RouteCollection {
@@ -13,7 +14,7 @@ struct PostController: RouteCollection {
 }
 
 extension PostController {
-    func createPost(req: Request) async throws -> Post {
+    func createPost(req: Request) async throws -> PublicPostDto {
         // handle posting new post
         // need to get the user first but in theory we could save a post here
         // for testing purpose we will just add a new user to db
@@ -21,10 +22,10 @@ extension PostController {
         try await user.save(on: req.db)  //save the user to the database
         let post = Post(title: "TestPost")
         try await user.$posts.create(post, on: req.db)
-        return post
+        return .init(from: post)
     }
 
-    func getPostById(req: Request) async throws -> Post {
+    func getPostById(req: Request) async throws -> PublicPostDto {
         let id = try req.parameters.require("id") as UUID
         let post = try await Post.query(on: req.db)
             .filter(\.$id, .equal, id)
@@ -33,7 +34,7 @@ extension PostController {
         guard let post = post else {
             throw Abort(.notFound)
         }
-        return post
+        return .init(from: post)
     }
 
     func getCommentsForId(req: Request) async throws -> String {

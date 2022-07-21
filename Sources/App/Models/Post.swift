@@ -13,6 +13,9 @@ final class Post: Model {
     @Parent(key: "user_id")
     var user: User
 
+    @Timestamp(key: "created_at", on: .create)
+    var created_at: Date?
+
     init() {}
 
     init(userId: User.IDValue, title: String) {

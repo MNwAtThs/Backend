@@ -5,28 +5,29 @@ struct UserController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped("user")
         group.get(":id", use: getUser)
-        group.get(":id", "posts", use: getPostsForUser)
     }
 }
 
 extension UserController {
 
-    func getUser(req: Request) async throws -> PublicUserDto {
+    func getUser(req: Request) async throws -> GetUserDto.Response {
         let identifier = try req.parameters.require("id")
-        let user = try await User.findUserByIdOrUsername(identifier, on: req.db)
-        guard let user = user else {
-            throw Abort(.notFound)
-        }
-        return .init(from: user)
-    }
 
-    func getPostsForUser(req: Request) async throws -> [Post] {
-        let identifier = try req.parameters.require("id")
+        let (page, limit) = req.pagination(prefix: "posts", defaultLimit: 100, maxLimit: 100)
+
         let user = try await User.findUserByIdOrUsername(identifier, on: req.db)
         guard let user = user else {
             throw Abort(.notFound)
         }
-        let posts = try await user.$posts.get(on: req.db)
-        return posts
+
+        let posts = try await user.$posts.query(on: req.db)
+            .page(withIndex: page, size: limit)
+            .map { PublicPostDto(from: $0) }
+
+        return .init(
+            user: .init(from: user),
+            posts: posts.items,
+            metadata: .init(from: posts.metadata)
+        )
     }
 }
