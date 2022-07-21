@@ -21,6 +21,7 @@ extension UserController {
         }
 
         let posts = try await user.$posts.query(on: req.db)
+            .sort(\.$created_at, .descending)
             .page(withIndex: page, size: limit)
             .map { PublicPostDto(from: $0) }
 

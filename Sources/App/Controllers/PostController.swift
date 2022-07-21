@@ -14,13 +14,12 @@ struct PostController: RouteCollection {
 }
 
 extension PostController {
-    func createPost(req: Request) async throws -> PublicPostDto {
-        // handle posting new post
-        // need to get the user first but in theory we could save a post here
-        // for testing purpose we will just add a new user to db
+    func createPost(req: Request) async throws -> CreatePostDto.Response {
+        let body = try req.content.decode(CreatePostDto.Request.self)
+        try CreatePostDto.Request.validate(content: req)
+
         let user = try req.auth.require(User.self)
-        try await user.save(on: req.db)  //save the user to the database
-        let post = Post(title: "TestPost")
+        let post = Post(title: body.title)
         try await user.$posts.create(post, on: req.db)
         return .init(from: post)
     }
