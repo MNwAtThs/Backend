@@ -2,6 +2,14 @@ import Fluent
 import Redis
 import Vapor
 
+protocol IPhoneAuth {
+    var phonenumber: String { get }
+    var code: String { get }
+    var createdAt: Date { get }
+    var expiresAt: Date { get }
+
+}
+
 struct UserAuthenticator: AsyncBearerAuthenticator {
     typealias User = App.User
 
@@ -28,4 +36,5 @@ struct UserAuthenticator: AsyncBearerAuthenticator {
         // authenticate user if token is verified and valid
         request.auth.login(user)
     }
+
 }

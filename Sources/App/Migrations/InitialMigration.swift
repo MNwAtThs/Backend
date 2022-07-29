@@ -8,7 +8,6 @@ struct InitialMigration: AsyncMigration {
             .id()
             .field("username", .string, .required)
             .unique(on: "username", name: "no_duplicate_username")
-            .unique(on: "email", name: "no_duplicate_email")
             .field("password", .string, .required)
             .create()
 

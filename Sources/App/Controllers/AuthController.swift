@@ -20,15 +20,11 @@ extension AuthController {
         try CreateUserDto.Request.validate(content: req)
 
         // check if user already exists
-        let count = try await User.query(on: req.db).group(.or) { group in
-            group
-                .filter(\.$username, .equal, body.username)
-                .filter(\.$email, .equal, body.email)
-        }
-        .count()
-
+        let count = try await User.query(on: req.db)
+            .filter(\.$username, .equal, body.username)
+            .count()
         guard count == 0 else {
-            throw Abort(.custom(code: 400, reasonPhrase: "username or email already in use"))
+            throw Abort(.conflict)
         }
 
         // hash password

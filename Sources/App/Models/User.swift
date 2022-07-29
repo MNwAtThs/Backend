@@ -26,6 +26,9 @@ final class User: Model {
     @Field(key: "password")
     var password: String
 
+    @Field(key: "phone_number")
+    var phoneNumber: String
+
     @Field(key: "email")
     var email: String
 
@@ -37,6 +40,7 @@ final class User: Model {
     init(id: UUID? = nil, username: String, email: String, password: String) {
         self.id = id
         self.username = username
+        self.phoneNumber = phoneNumber
         self.email = email
         self.password = password
     }
