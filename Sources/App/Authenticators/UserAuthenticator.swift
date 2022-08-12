@@ -2,7 +2,8 @@ import Fluent
 import Redis
 import Vapor
 
-protocol IPhoneAuth {
+protocol IPhoneAuth 
+{
     var phonenumber: String { get }
     var code: String { get }
     var createdAt: Date { get }
@@ -10,14 +11,12 @@ protocol IPhoneAuth {
 
 }
 
-struct UserAuthenticator: AsyncBearerAuthenticator {
+struct UserAuthenticator: AsyncBearerAuthenticator 
+{
     typealias User = App.User
 
-    func authenticate(
-        bearer: BearerAuthorization,
-        for request: Request
-    ) async throws {
-
+    func authenticate( bearer: BearerAuthorization, for request: Request) async throws 
+    {
         // verify payload
         let verified = try request.application.jwt.signers
             .verify(bearer.token, as: UserTokenPayload.self)

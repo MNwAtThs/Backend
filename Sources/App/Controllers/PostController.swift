@@ -22,9 +22,7 @@ extension PostController {
         try await user.$posts.create(post, on: req.db)
 
         let dto = CreatePostDto.Response(
-            user: PublicUserDto(from: user),
-            post: PublicPostDto(from: post, comment_count: 0)
-        )
+            user: PublicUserDto(from: user), post: PublicPostDto(from: post, comment_count: 0))
 
         let response: Response = .init(status: .created)
         try response.content.encode(dto)
@@ -37,9 +35,7 @@ extension PostController {
 
         let (page, limit) = req.pagination(prefix: "comments", defaultLimit: 100, maxLimit: 100)
 
-        guard let post = post else {
-            throw Abort(.notFound)
-        }
+        guard let post = post else { throw Abort(.notFound) }
 
         let comments = try await post.$comments.query(on: req.db)
             .sort(\.$created_at, .descending)
@@ -59,10 +55,9 @@ extension PostController {
         let comment_count = try await post.$comments.query(on: req.db).count()
 
         let dto: GetPostDto.Response = .init(
-            post: PublicPostDto(from: post, comment_count: comment_count),
-            users: users,
-            comments: commentDtos
-        )
+            post: PublicPostDto(from: post, comment_count: comment_count), users: users,
+            comments: commentDtos)
+
         return .init(data: dto, metadata: comments.metadata)
     }
 
@@ -74,9 +69,8 @@ extension PostController {
         let id = try req.parameters.require("id") as UUID
         let post = try await Post.find(id, on: req.db)
 
-        guard let post = post else {
-            throw Abort(.notFound)
-        }
+        guard let post = post else { throw Abort(.notFound) }
+
         let comment_count = try await post.$comments.query(on: req.db).count()
         let comment = Comment(userId: user.id!, postId: post.id!, body: body.body)
         try await comment.save(on: req.db)
@@ -84,8 +78,7 @@ extension PostController {
         let dto = CreateCommentDto.Response(
             user: PublicUserDto(from: user),
             post: PublicPostDto(from: post, comment_count: comment_count),
-            comment: PublicCommentDto(from: comment)
-        )
+            comment: PublicCommentDto(from: comment))
 
         let response: Response = .init(status: .created)
         try response.content.encode(dto)

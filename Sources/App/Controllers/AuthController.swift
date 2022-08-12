@@ -35,9 +35,7 @@ extension AuthController {
         try await user.save(on: req.db)
 
         // return saved user
-        let dto = CreateUserDto.Response(
-            user: .init(from: user)
-        )
+        let dto = CreateUserDto.Response(user: .init(from: user))
 
         let response: Response = .init(status: .created)
         try response.content.encode(dto)
@@ -68,19 +66,15 @@ extension AuthController {
         }
 
         // create and sign JWT payload
-        let payload = UserTokenPayload(
-            subject: .init(value: userId.uuidString)
-        )
+        let payload = UserTokenPayload(subject: .init(value: userId.uuidString))
+
         let jwt = try req.jwt.sign(payload)
 
         let _ = try await req.redis.sadd([jwt], to: .usertoken(.uuid(userId))).get()
         // _ = try await req.redis.expire(redisKey, after: .hours(1)).get()
 
         // return logged in user and saved JWT token
-        return .init(
-            user: .init(from: user),
-            token: jwt
-        )
+        return .init(user: .init(from: user), token: jwt)
     }
 
     func logout(req: Request) async throws -> Response {

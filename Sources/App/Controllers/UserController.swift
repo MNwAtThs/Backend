@@ -9,7 +9,6 @@ struct UserController: RouteCollection {
 }
 
 extension UserController {
-
     func getUser(req: Request) async throws -> PaginatedDto<GetUserDto.Response> {
         let identifier = try req.parameters.require("id")
 
@@ -29,11 +28,7 @@ extension UserController {
             }
 
         return .init(
-            data: GetUserDto.Response(
-                user: .init(from: user),
-                posts: posts.items
-            ),
-            metadata: posts.metadata
-        )
+            data: GetUserDto.Response(user: .init(from: user), posts: posts.items),
+            metadata: posts.metadata)
     }
 }
